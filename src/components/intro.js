@@ -17,20 +17,20 @@ export const ProfilePic = styled.img`
     margin-bottom: 30px;
 `
 
-export const Name = styled.h2`
+export const Name = styled.h3`
   font-size: 20px;
   color: var(--greenHead);
   font-weight: 700;
   margin: 0 0 3px 20px;
 `
-export const Title = styled.h1`
+export const Title = styled.h2`
   font-size: 30px;
   color: var(--fontColor);
   font-weight: 700;
   margin: 0 0 0 20px;
 `
 
-export const TitleSkill = styled.h3`
+export const TitleSkill = styled.h4`
   font-size: 15px;
   color: var(--fontColormain);
   font-weight: 500;

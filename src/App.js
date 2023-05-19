@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import { TechStack } from 'components/tech'
+import { FeaturedProject } from 'components/featproject';
 import { TheProfile } from './components/intro';
 
 export const Container = styled.div`
@@ -14,6 +15,7 @@ export const App = () => {
     <Container>
       <TheProfile />
       <TechStack />
+      <FeaturedProject />
     </Container>
 
   )
