@@ -1,8 +1,20 @@
 import React from 'react'
-import { TheProfile } from './components/intro'
+import styled from 'styled-components';
+import { TechStack } from 'components/tech'
+import { TheProfile } from './components/intro';
+
+export const Container = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: left;
+`
 
 export const App = () => {
   return (
-    <TheProfile />
+    <Container>
+      <TheProfile />
+      <TechStack />
+    </Container>
+
   )
 }

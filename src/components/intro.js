@@ -37,7 +37,7 @@ export const TitleSkill = styled.h3`
   margin: 3px 0 0 20px;
 `
 
-export const Intruduction = styled.h3`
+export const Intruduction = styled.p`
   font-size: 13px;
   color: var(--fontColormain);
   font-weight: 300;
@@ -54,6 +54,7 @@ justify-content: center;
 
 export const Icons = styled.a`
   margin-top: 20px;
+  margin-bottom: 40px;
   font-size: 20px;
   color: var(--icons);
   padding: 0 9px;
