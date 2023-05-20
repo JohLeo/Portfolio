@@ -11,7 +11,7 @@ export const Header = styled.h1`
   font-size: 50px;
   color: var(--blueHead);
   font-weight: 700;
-  margin: 40px 20px;
+  margin: 50px 20px 25px 20px;
 `
 
 export const ProfilePic = styled.img`
@@ -57,6 +57,9 @@ export const Phone = styled.a`
   color: var(--fontColor);
   margin: 0 0 20px 20px;
   text-decoration: none;
+  &:hover {
+      color: var(--Hover);
+    }
 `
 
 export const IconsContainer = styled.div`
@@ -74,8 +77,7 @@ export const Icons = styled.a`
     &:hover {
       color: var(--Hover);
     }
-
-`;
+`
 
 export const Footer = () => {
   return (

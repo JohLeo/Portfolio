@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 import React from 'react';
 import styled from 'styled-components';
 
@@ -14,6 +15,13 @@ display: flex;
 justify-content: left;
 background: var(--background);
 padding: 0 0 0 10px;
+`
+
+export const ContainerWrap = styled.div`
+display: flex;
+flex-wrap: wrap;
+background: var(--background);
+padding: 0 0 40px 10px;
 `
 
 export const Header = styled.h1`
@@ -56,6 +64,44 @@ export const ProjectTech = styled.p`
   padding: 4px 4px;
 `
 
+const Button = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 18px;
+  margin: 0 0 10px 10px;
+  background: #e0e0e0;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+
+  &:hover {
+    background: ${(props) => props.hoverColor || '#000'};
+  }
+  i {
+    font-size: 20px; 
+    margin-right: 10px; 
+  }
+`;
+
+export const ViewButton = ({ url, label, icon, hoverColor }) => {
+    const handleClick = () => {
+      window.open(url, '_blank');
+    };
+    return (
+        <Button
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          hoverColor={hoverColor}
+          onClick={handleClick}>
+          {icon && <i className={icon}> </i>}
+          {label}
+        </Button>
+      );
+    };
+
 export const FeaturedProject = () => {
   return (
     <>
@@ -69,10 +115,26 @@ export const FeaturedProject = () => {
               A game made out of Ai lorem ipsum dores lirum
         </ProjectP>
       </Container>
+
       <ContainerRow>
         <ProjectTech>HTML</ProjectTech>
         <ProjectTech>Javascript</ProjectTech>
       </ContainerRow>
+
+      <ContainerWrap>
+      <ViewButton
+        url="https://www.example.com"
+        icon="fa-brands fa-github"
+        label="View the code"
+        hoverColor="var(--codeBtn)" />
+      <ViewButton
+        url="https://www.example.com"
+        label="Live demo"
+        icon="fa-solid fa-globe"
+        hoverColor="var(--demoBtn)" />
+
+      </ContainerWrap>
+
     </>
   )
 };
