@@ -1,6 +1,6 @@
 /* eslint-disable indent */
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 
 export const Container = styled.div`
 display: flex;
@@ -132,7 +132,6 @@ export const FeaturedProject = () => {
         label="Live demo"
         icon="fa-solid fa-globe"
         hoverColor="var(--demoBtn)" />
-
       </ContainerWrap>
 
     </>
