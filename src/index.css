@@ -18,8 +18,14 @@ body {
   --fontColor: #232323;
   --fontColormain: #5d5d5d;
 
+  --codeTag: #1f1f1f;
+  --codeSkill: #81fb7a;
+  --codeTool: #c57afb;
+  --codeMore: #fbc57a;
+  --codeUp: #7afbb8;
+
   --icons: #aeaeae;
-  --iconsHover: #ff57b9;
+  --Hover: #ff57b9;
 
 
   --demoBtn: #3A6447;

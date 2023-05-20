@@ -1,26 +1,31 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export const Container = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: left;
+export const ContainerFoot = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+`
+
+export const Header = styled.h1`
+  font-size: 50px;
+  color: var(--blueHead);
+  font-weight: 700;
+  margin: 40px 20px;
 `
 
 export const ProfilePic = styled.img`
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 0 20px;
 `
 
 export const Name = styled.h3`
   font-size: 20px;
   color: var(--greenHead);
   font-weight: 700;
-  margin: 0 0 3px 20px;
+  margin: 40px 0 3px 20px;
 `
 export const Title = styled.h2`
   font-size: 30px;
@@ -33,27 +38,34 @@ export const TitleSkill = styled.h4`
   font-size: 15px;
   color: var(--fontColormain);
   font-weight: 500;
-  margin: 3px 0 0 20px;
+  margin: 3px 0 40px 20px;
 `
-
-export const Introduction = styled.p`
-  font-size: 13px;
-  color: var(--fontColormain);
-  font-weight: 300;
-  padding-right: 10px;
-  margin: 20px 0 0 20px;
-  max-width: 380px;
+export const Mail = styled.a`
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--fontColor);
+  margin: 0 0 0 20px;
+  text-decoration: none;
+  line-height: 30px;
+  &:hover {
+      color: var(--Hover);
+    }
+`
+export const Phone = styled.a`
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--fontColor);
+  margin: 0 0 20px 20px;
+  text-decoration: none;
 `
 
 export const IconsContainer = styled.div`
 display: flex;
 flex-direction: row;
-justify-content: center;
+justify-content: left;
 `
-
 export const Icons = styled.a`
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin: 20px 0 40px 20px;
   font-size: 20px;
   color: var(--icons);
   padding: 0 9px;
@@ -65,24 +77,29 @@ export const Icons = styled.a`
 
 `;
 
-export const TheProfile = () => {
+export const Footer = () => {
   return (
-
     <>
-      <Container>
+      <ContainerFoot>
+        <Header>Lets connect!</Header>
         <ProfilePic src="https://i.postimg.cc/MKDz5Qww/jl.jpg" alt="The Pain" />
         <Name>Johanna Leonsson</Name>
         <Title>Frontend developer</Title>
         <TitleSkill>+ digital designer</TitleSkill>
-        <Introduction>
-        Johanna is an exceptional developer known for
-        her innovative solutions and exceptional
-        coding abilities. She creates user-friendly
-        applications and solves complex issues with ease.
-        Her drive for excellence makes her a valuable asset
-        to any project and a standout in the technology field.
-        </Introduction>
-      </Container>
+
+        <Mail
+          href="mailto:johanna@leonsson.se"
+          aria-label="Email adress">
+            johanna@leonsson.se
+        </Mail>
+
+        <Phone
+          href="tel:+4676380047"
+          aria-label="Phone number">
+            +46(0)706380047
+        </Phone>
+
+      </ContainerFoot>
       <IconsContainer>
         <Icons
           className="icon"
@@ -103,7 +120,5 @@ export const TheProfile = () => {
         </Icons>
       </IconsContainer>
     </>
-
   )
 }
-

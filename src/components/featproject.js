@@ -49,9 +49,9 @@ export const ProjectTech = styled.p`
   font-size: 13px;
   font-weight: 300;
   padding-right: 10px;
-  margin: 0 0 0 10px;
+  margin: 0 0 20px 10px;
   max-width: 380px;
-  background-color: var(--fontColormain);
+  background-color: var(--codeTag);
   color: #FFFFFF;
   padding: 4px 4px;
 `
