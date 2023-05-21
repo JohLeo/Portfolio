@@ -1,27 +1,8 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import { Header, ProfilePic } from './lib/recomp'
-import { Container } from './lib/styled'
+import { Container, Name, Title, TitleSkill } from './lib/styled'
 
-export const Name = styled.h3`
-  font-size: 20px;
-  color: var(--greenHead);
-  font-weight: 700;
-  margin: 40px 0 3px 20px;
-`
-export const Title = styled.h2`
-  font-size: 30px;
-  color: var(--fontColor);
-  font-weight: 700;
-  margin: 0;
-`
-
-export const TitleSkill = styled.h4`
-  font-size: 15px;
-  color: var(--fontColormain);
-  font-weight: 500;
-  margin: 3px 0 20px 0;
-`
 export const Mail = styled.a`
   font-size: 20px;
   font-weight: 700;

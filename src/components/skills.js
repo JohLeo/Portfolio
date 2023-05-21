@@ -7,7 +7,6 @@ export const ContainerSkills = styled.div`
     background: var(--skills);
     padding: 50px;
 `
-
 export const SkillList = styled.dl`
     text-align: center;
     line-height: 25px;

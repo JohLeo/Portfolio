@@ -1,13 +1,12 @@
-/* eslint-disable indent */
 import React from 'react';
 import styled from 'styled-components/macro';
 
 // OverHeader for featured project, My words and footer
-  const Head1 = styled.h1`
+const Head1 = styled.h1`
   font-size: 50px;
   color: ${(props) => props.color || 'var(--greenHead)'};
   font-weight: 700;
-  margin: 40px 0 0 20px;
+  margin: 40px 0 50px 0;
 `;
 
 export const Header = ({ children, color }) => {
@@ -20,8 +19,6 @@ const ProfileImage = styled.img`
   height: 100px;
   border-radius: 50%;
   margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
 
   margin-left: ${(props) => (props.centered ? 'auto' : '0')};
   margin-right: ${(props) => (props.centered ? 'auto' : '0')};
@@ -43,21 +40,25 @@ export const ProjectName = ({ children }) => {
   return <Head3>{children}</Head3>;
 };
 
-export const ProjectP = styled.p`
+// Breadtext
+const BreadParagraph = styled.p`
   font-size: 13px;
   color: var(--fontColormain);
   font-weight: 300;
   padding-right: 10px;
   margin: 10px 0 0 0;
   max-width: 380px;
-`
+`;
+
+export const Paragraph = ({ children }) => {
+  return <BreadParagraph>{children}</BreadParagraph>;
+};
 
 // Project image
-  const Image = styled.img`
+const Image = styled.img`
   width: 100%;
   max-width: 350px;
   height: 100%;
-  margin-top: 10px;
   margin-bottom: 20px;
 `;
 
@@ -66,7 +67,7 @@ export const ProjectImg = ({ src, alt, ariaLabel }) => {
 };
 
 // Project techtags
-  const ProjectTech = styled.p`
+const ProjectTech = styled.p`
   font-size: 13px;
   font-weight: 300;
   padding-right: 10px;
@@ -82,7 +83,7 @@ export const Project = ({ text }) => {
 };
 
 // Project btns code and deployed
-  const Button = styled.a`
+const Button = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,30 +105,18 @@ export const Project = ({ text }) => {
 `;
 
 export const ViewButton = ({ url, label, icon, hoverColor }) => {
-    const handleClick = () => {
-      window.open(url, '_blank');
-    };
-    return (
-        <Button
-          href={url}
-          target="_blank"
-          rel="noopener noreferrer"
-          hoverColor={hoverColor}
-          onClick={handleClick}>
-          {icon && <i className={icon}> </i>}
-          {label}
-        </Button>
-      );
-    };
-
-export const FeaturedProject = () => {
+  const handleClick = () => {
+    window.open(url, '_blank');
+  };
   return (
-
-        <ProjectP>
-              A game made out of Ai lorem ipsum dores lirum
-              A game made out of Ai lorem ipsum dores lirum
-              A game made out of Ai lorem ipsum dores lirum
-        </ProjectP>
-
-  )
+    <Button
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      hoverColor={hoverColor}
+      onClick={handleClick}>
+      {icon && <i className={icon}> </i>}
+      {label}
+    </Button>
+  );
 };
