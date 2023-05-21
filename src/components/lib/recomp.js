@@ -88,7 +88,7 @@ const Button = styled.a`
   align-items: center;
   justify-content: center;
   padding: 8px 18px;
-  margin: 0 0 10px 10px;
+  margin: 0 50px 10px 10px;
   background: #e0e0e0;
   color: #fff;
   text-decoration: none;
