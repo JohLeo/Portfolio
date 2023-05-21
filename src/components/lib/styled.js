@@ -6,7 +6,7 @@ display: flex;
 flex-direction: column;
 justify-content: left;
 background: var(--background);
-padding: 0 20px 10px 20px;
+padding: 60px 20px 10px 20px;
 `
 
 export const ContainerRow = styled.div`
@@ -21,6 +21,14 @@ display: flex;
 flex-wrap: wrap;
 background: var(--background);
 padding: 0 0 40px 10px;
+`
+
+export const ContainerProject = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: left;
+background: var(--background);
+padding: 0 20px 10px 20px;
 `
 
 export const Name = styled.h3`

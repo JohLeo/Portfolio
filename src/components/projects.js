@@ -1,12 +1,14 @@
 import React from 'react';
 import { Header, Paragraph, ProjectName, ProjectImg, Project, ViewButton } from './lib/recomp';
-import { Container, ContainerWrap, ContainerRow } from './lib/styled';
+import { ContainerProject, Container, ContainerWrap, ContainerRow } from './lib/styled';
 
 export const ProjectStack = () => {
   return (
     <>
       <Container>
         <Header>Featured projects</Header>
+      </Container>
+      <ContainerProject>
         <ProjectImg
           src="https://i.postimg.cc/bY5FXT8T/guess-who.png"
           alt="The Pain"
@@ -17,7 +19,7 @@ export const ProjectStack = () => {
         A game made out of Ai lorem ipsum dores lirum
         A game made out of Ai lorem ipsum dores lirum
         </Paragraph>
-      </Container>
+      </ContainerProject>
 
       <ContainerRow>
         <Project text="HTML" />
@@ -38,7 +40,7 @@ export const ProjectStack = () => {
           hoverColor="var(--demoBtn)" />
       </ContainerWrap>
 
-      <Container>
+      <ContainerProject>
         <ProjectImg
           src="https://i.postimg.cc/bY5FXT8T/guess-who.png"
           alt="The Pain"
@@ -49,7 +51,7 @@ export const ProjectStack = () => {
         A game made out of Ai lorem ipsum dores lirum
         A game made out of Ai lorem ipsum dores lirum
         </Paragraph>
-      </Container>
+      </ContainerProject>
 
       <ContainerRow>
         <Project text="HTML" />

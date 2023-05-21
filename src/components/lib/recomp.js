@@ -6,7 +6,7 @@ const Head1 = styled.h1`
   font-size: 50px;
   color: ${(props) => props.color || 'var(--greenHead)'};
   font-weight: 700;
-  margin: 40px 0 50px 0;
+  margin: 0 0 50px 0;
 `;
 
 export const Header = ({ children, color }) => {
