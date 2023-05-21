@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import { Skills } from 'components/skills';
 import { TechStack } from 'components/tech'
-import { FeaturedProject } from 'components/featproject';
+import { ProjectStack } from 'components/projects';
 import { Footer } from 'components/footer';
 import { TheProfile } from './components/intro';
 
@@ -17,7 +17,7 @@ export const App = () => {
     <Container>
       <TheProfile />
       <TechStack />
-      <FeaturedProject />
+      <ProjectStack />
       <Skills />
       <Footer />
     </Container>

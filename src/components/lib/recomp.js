@@ -2,47 +2,46 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 
-export const Container = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: left;
-background: var(--background);
-padding: 60px 20px 10px 20px;
-`
-
-export const ContainerRow = styled.div`
-display: flex;
-justify-content: left;
-background: var(--background);
-padding: 0 0 0 10px;
-`
-
-export const ContainerWrap = styled.div`
-display: flex;
-flex-wrap: wrap;
-background: var(--background);
-padding: 0 0 40px 10px;
-`
-
-export const Header = styled.h1`
+// OverHeader for featured project, My words and footer
+  const Head1 = styled.h1`
   font-size: 50px;
-  color: var(--greenHead);
+  color: ${(props) => props.color || 'var(--greenHead)'};
   font-weight: 700;
-  margin: 0;
-`
-export const ProjectImg = styled.img`
-    width: 100%;
-    max-width: 350px;
-    height: 100%;
-    margin-top: 30px;
-    margin-bottom: 20px;
-`
-export const ProjectName = styled.h3`
+  margin: 40px 0 0 20px;
+`;
+
+export const Header = ({ children, color }) => {
+  return <Head1 color={color}>{children}</Head1>;
+};
+
+// Profile picture Intro and foot
+const ProfileImage = styled.img`
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  margin-left: ${(props) => (props.centered ? 'auto' : '0')};
+  margin-right: ${(props) => (props.centered ? 'auto' : '0')};
+`;
+
+export const ProfilePic = ({ src, alt, ariaLabel, centered }) => {
+  return <ProfileImage src={src} alt={alt} aria-label={ariaLabel} centered={centered} />;
+};
+
+// Project title
+const Head3 = styled.h3`
   font-size: 20px;
   color: var(--fontColor);
   font-weight: 700;
   margin: 0;
-`
+`;
+
+export const ProjectName = ({ children }) => {
+  return <Head3>{children}</Head3>;
+};
 
 export const ProjectP = styled.p`
   font-size: 13px;
@@ -53,7 +52,21 @@ export const ProjectP = styled.p`
   max-width: 380px;
 `
 
-export const ProjectTech = styled.p`
+// Project image
+  const Image = styled.img`
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+`;
+
+export const ProjectImg = ({ src, alt, ariaLabel }) => {
+  return <Image src={src} alt={alt} aria-label={ariaLabel} />;
+};
+
+// Project techtags
+  const ProjectTech = styled.p`
   font-size: 13px;
   font-weight: 300;
   padding-right: 10px;
@@ -62,9 +75,14 @@ export const ProjectTech = styled.p`
   background-color: var(--codeTag);
   color: #FFFFFF;
   padding: 4px 4px;
-`
+`;
 
-const Button = styled.a`
+export const Project = ({ text }) => {
+  return <ProjectTech>{text}</ProjectTech>;
+};
+
+// Project btns code and deployed
+  const Button = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,36 +122,12 @@ export const ViewButton = ({ url, label, icon, hoverColor }) => {
 
 export const FeaturedProject = () => {
   return (
-    <>
-      <Container>
-        <Header>Featured projects</Header>
-        <ProjectImg src="https://i.postimg.cc/bY5FXT8T/guess-who.png" alt="The Pain" />
-        <ProjectName>Guess who - the game</ProjectName>
+
         <ProjectP>
               A game made out of Ai lorem ipsum dores lirum
               A game made out of Ai lorem ipsum dores lirum
               A game made out of Ai lorem ipsum dores lirum
         </ProjectP>
-      </Container>
 
-      <ContainerRow>
-        <ProjectTech>HTML</ProjectTech>
-        <ProjectTech>Javascript</ProjectTech>
-      </ContainerRow>
-
-      <ContainerWrap>
-      <ViewButton
-        url="https://www.example.com"
-        icon="fa-brands fa-github"
-        label="View the code"
-        hoverColor="var(--codeBtn)" />
-      <ViewButton
-        url="https://www.example.com"
-        label="Live demo"
-        icon="fa-solid fa-globe"
-        hoverColor="var(--demoBtn)" />
-      </ContainerWrap>
-
-    </>
   )
 };

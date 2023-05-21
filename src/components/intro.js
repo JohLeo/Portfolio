@@ -1,39 +1,26 @@
 import React from 'react';
 import styled from 'styled-components/macro';
-
-export const Container = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: left;
-`
-
-export const ProfilePic = styled.img`
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-`
+import { Container } from './lib/styled';
+import { ProfilePic } from './lib/recomp'
 
 export const Name = styled.h3`
   font-size: 20px;
   color: var(--greenHead);
   font-weight: 700;
-  margin: 0 0 3px 20px;
+  margin: 0 0 3px 0;
 `
 export const Title = styled.h2`
   font-size: 30px;
   color: var(--fontColor);
   font-weight: 700;
-  margin: 0 0 0 20px;
+  margin: 0;
 `
 
 export const TitleSkill = styled.h4`
   font-size: 15px;
   color: var(--fontColormain);
   font-weight: 500;
-  margin: 3px 0 0 20px;
+  margin: 3px 0 0 0;
 `
 
 export const Introduction = styled.p`
@@ -41,7 +28,7 @@ export const Introduction = styled.p`
   color: var(--fontColormain);
   font-weight: 300;
   padding-right: 10px;
-  margin: 20px 0 0 20px;
+  margin: 20px 0 0 0;
   max-width: 380px;
 `
 
@@ -70,7 +57,12 @@ export const TheProfile = () => {
 
     <>
       <Container>
-        <ProfilePic src="https://i.postimg.cc/MKDz5Qww/jl.jpg" alt="The Pain" />
+        <ProfilePic
+          src="https://i.postimg.cc/MKDz5Qww/jl.jpg"
+          alt="Picture of Johanna"
+          ariaLabel="Johanna's profile picture"
+          centered />
+
         <Name>Johanna Leonsson</Name>
         <Title>Frontend developer</Title>
         <TitleSkill>+ digital designer</TitleSkill>
