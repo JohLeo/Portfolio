@@ -7,7 +7,7 @@ export const Mail = styled.a`
   font-size: 20px;
   font-weight: 700;
   color: var(--fontColor);
-  margin: 0;
+  margin-top: 40px;
   text-decoration: none;
   line-height: 30px;
   &:hover {
