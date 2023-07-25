@@ -31,7 +31,7 @@ export const Name = styled.h3`
   font-size: 20px;
   color: var(--greenHead);
   font-weight: 700;
-  margin: 40px 0 3px 0;
+  margin: 0px 0 3px 0;
 `
 export const Title = styled.h2`
   font-size: 30px;

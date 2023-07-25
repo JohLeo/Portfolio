@@ -22,6 +22,10 @@ const ProfileImage = styled.img`
 
   margin-left: ${(props) => (props.centered ? 'auto' : '0')};
   margin-right: ${(props) => (props.centered ? 'auto' : '0')};
+
+  @media screen and (max-width: 667px) {
+    margin-bottom: ${(props) => (props.centered ? '25px' : '0')};
+  }
 `;
 
 export const ProfilePic = ({ src, alt, ariaLabel, centered }) => {
@@ -36,8 +40,13 @@ const BreadParagraph = styled.p`
   padding-right: 10px;
   margin: 10px 0 0 0;
   max-width: 380px;
+
+  &.AboutText {
+    margin: 40px 0 0;
+    padding: 0;
+  }
 `;
 
-export const Paragraph = ({ children }) => {
-  return <BreadParagraph>{children}</BreadParagraph>;
+export const Paragraph = ({ children, AboutText }) => {
+  return <BreadParagraph className={AboutText}>{children}</BreadParagraph>;
 };

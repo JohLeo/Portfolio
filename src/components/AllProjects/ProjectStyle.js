@@ -10,12 +10,11 @@ padding: 60px 20px 10px 20px;
 
 @media (min-width: 667px) {
     flex-direction: row;
-    align-items: center;
     justify-content: center;
   }
 `
 
-export const ProjectRow = styled.div`
+export const TechRow = styled.div`
 display: flex;
 justify-content: left;
 background: var(--background);

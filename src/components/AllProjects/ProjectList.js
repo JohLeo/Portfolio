@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header, Paragraph } from '../lib/recomp';
-import { ProjectHead, ProjectsCont, ProjectRow, Btns, ProjectInfo, ProjectName, ProjectImg, Project, ViewButton } from './ProjectStyle';
+import { ProjectHead, ProjectsCont, TechRow, Btns, ProjectInfo, ProjectName, ProjectImg, Project, ViewButton } from './ProjectStyle';
 
 export const ProjectStack = () => {
   return (
@@ -26,11 +26,11 @@ export const ProjectStack = () => {
                   A game made out of Ai lorem ipsum dores lirum
           </Paragraph>
 
-          <ProjectRow>
+          <TechRow>
             <Project text="HTML" />
             <Project text="Javascript" />
             <Project text="React" />
-          </ProjectRow>
+          </TechRow>
 
           <Btns>
             <ViewButton

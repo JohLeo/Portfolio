@@ -1,50 +1,35 @@
 import React from 'react';
-import styled from 'styled-components/macro';
-import { ProfilePic, Paragraph } from './lib/recomp'
-import { Container, Name, Title, TitleSkill } from './lib/styled';
-
-export const IconsContainer = styled.div`
-display: flex;
-flex-direction: row;
-justify-content: center;
-`
-
-export const Icons = styled.a`
-  margin-top: 20px;
-  margin-bottom: 40px;
-  font-size: 20px;
-  color: var(--icons);
-  padding: 0 9px;
-  text-decoration: none;
-
-    &:hover {
-      color: var(--Hover);
-    }
-
-`;
+import { ProfilePic, Paragraph } from '../lib/recomp'
+import { Name, Title, TitleSkill } from '../lib/styled';
+import { ProfileContainer, ProfileImgText, ProfileText, IconsContainer, Icons } from './PersonalStyle';
 
 export const TheProfile = () => {
   return (
 
-    <>
-      <Container>
+    <ProfileContainer>
+      <ProfileImgText>
         <ProfilePic
           src="https://i.postimg.cc/MKDz5Qww/jl.jpg"
           alt="Picture of Johanna"
           ariaLabel="Johanna's profile picture"
           centered />
-        <Name>Johanna Leonsson</Name>
-        <Title>Frontend developer</Title>
-        <TitleSkill>+ digital designer</TitleSkill>
-        <Paragraph>
+
+        <ProfileText>
+          <Name>Johanna Leonsson</Name>
+          <Title>Frontend developer</Title>
+          <TitleSkill>+ digital designer</TitleSkill>
+        </ProfileText>
+      </ProfileImgText>
+
+      <Paragraph AboutText="AboutText">
         Johanna is an exceptional developer known for
         her innovative solutions and exceptional
         coding abilities. She creates user-friendly
         applications and solves complex issues with ease.
         Her drive for excellence makes her a valuable asset
         to any project and a standout in the technology field.
-        </Paragraph>
-      </Container>
+      </Paragraph>
+
       <IconsContainer>
         <Icons
           className="icon"
@@ -64,7 +49,7 @@ export const TheProfile = () => {
           <i className="fa-brands fa-github" />
         </Icons>
       </IconsContainer>
-    </>
+    </ProfileContainer>
 
   )
 }
