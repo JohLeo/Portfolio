@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components/macro';
-import { Header, ProfilePic } from './lib/recomp'
-import { Container, Name, Title, TitleSkill } from './lib/styled'
+import { Header, ProfilePic } from '../lib/recomp'
+import { Container, Name, Title, TitleSkill } from '../lib/styled'
 
 export const Mail = styled.a`
   font-size: 20px;
