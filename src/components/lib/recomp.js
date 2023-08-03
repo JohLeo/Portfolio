@@ -15,8 +15,8 @@ export const Header = ({ children, color }) => {
 
 // Profile picture Intro and foot
 const ProfileImage = styled.img`
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   margin: 0 auto;
 

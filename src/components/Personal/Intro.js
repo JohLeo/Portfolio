@@ -22,14 +22,27 @@ export const TheProfile = () => {
       </ProfileImgText>
 
       <Paragraph AboutText="AboutText">
-        Johanna is an exceptional developer known for
-        her innovative solutions and exceptional
-        coding abilities. She creates user-friendly
-        applications and solves complex issues with ease.
-        Her drive for excellence makes her a valuable asset
-        to any project and a standout in the technology field.
-      </Paragraph>
+        Hi! <br />
+        I&apos;m Johanna, a full-stack developer with a passion for crafting web experiences.
+        My journey in web development has equipped me with valuable technical skills and
+        a creative mindset. My background in communications and design
+        gives me a fresh perspective to web development projects.
+        Having worked in various industries and roles, I understands the power
+        of collaboration and strive to delivering exceptional results.<br /><br />
 
+        My eagerness to learn and grow drives me to continuously enhance my abilities.
+        I take great care in paying attention to aesthetics and user experience,
+        striving to create immersive web experiences that resonate with users.<br /><br />
+
+        With a focus on problem-solving and a commitment to delivering quality work,
+        I approach every project with diligence and precision.
+        Your web development needs are important to me, and I will do my best to meet
+        them.<br /><br />
+
+        If you&apos;re looking for a dedicated developer to bring your ideas to life,
+        I&apos;d be thrilled to hear from you — I&apos;m here to listen and explore
+        new opportunities with excitement!
+      </Paragraph>
       <IconsContainer>
         <Icons
           className="icon"
