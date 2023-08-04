@@ -39,11 +39,12 @@ const BreadParagraph = styled.p`
   font-weight: 300;
   padding-right: 10px;
   margin: 10px 0 0 0;
-  max-width: 380px;
+  max-width: 250px;
 
   &.AboutText {
     margin: 40px 0 0;
     padding: 0;
+    max-width: 390px;
   }
 `;
 

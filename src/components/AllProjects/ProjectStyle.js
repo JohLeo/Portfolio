@@ -1,6 +1,12 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 
+export const Center = styled.div`
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+`
+
 export const ProjectHead = styled.div`
 display: flex;
 flex-direction: column;
