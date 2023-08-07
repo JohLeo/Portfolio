@@ -82,12 +82,11 @@ export const ProjectName = ({ children }) => {
 const ProjectTech = styled.p`
   font-size: 13px;
   font-weight: 300;
-  padding-right: 10px;
   margin: 20px 10px 20px 0;
   max-width: 380px;
   background-color: var(--codeTag);
   color: #FFFFFF;
-  padding: 4px 4px;
+  padding: 4px 8px;
 `;
 
 export const Project = ({ text }) => {

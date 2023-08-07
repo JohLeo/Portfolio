@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header, Paragraph } from '../lib/recomp';
 import { ProjectHead, ProjectsCont, TechRow, Btns, ProjectInfo, ProjectName, ProjectImg, Project, ViewButton } from './ProjectStyle';
-import { Projects } from './Projects';
+import { projects } from './Projects';
 
 export const ProjectStack = () => {
   return (
@@ -12,7 +12,7 @@ export const ProjectStack = () => {
       </ProjectHead>
 
       <div>
-        {Projects.map((project) => (
+        {projects.map((project) => (
           <ProjectsCont key={project.id}>
             <ProjectInfo>
               <ProjectImg
@@ -28,9 +28,9 @@ export const ProjectStack = () => {
               </Paragraph>
 
               <TechRow>
-                <Project text="HTML" />
-                <Project text="Javascript" />
-                <Project text="React" />
+                {project.languages && project.languages.map((language) => (
+                  <Project text={language} />
+                ))}
               </TechRow>
 
               <Btns>
