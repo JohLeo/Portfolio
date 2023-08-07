@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     id: '02',
-    imgSrc: 'https://i.postimg.cc/Bv58nDWL/house.png',
+    imgSrc: 'https://i.postimg.cc/sDyhhqL1/Auth-16.png',
     title: 'Authentication',
     description: 'A game made out of Ai lorem ipsum dores lirum A game made out of Ai lorem ipsum dores lirum A game made out of Ai lorem ipsum dores lirum',
     languages: ['add something'],
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     id: '03',
-    imgSrc: 'https://i.postimg.cc/Bv58nDWL/house.png',
+    imgSrc: 'https://i.postimg.cc/YS4G7HvD/Happy2-v15.png',
     title: 'Happy thoughts v.2',
     description: 'A game made out of Ai lorem ipsum dores lirum A game made out of Ai lorem ipsum dores lirum A game made out of Ai lorem ipsum dores lirum',
     languages: ['Tech needed'],
@@ -66,8 +66,8 @@ export const projects = [
     id: '09',
     imgSrc: 'https://i.postimg.cc/W4QDbHrN/Movies-v8.png',
     title: 'Movie Releases',
-    description: 'A multi-page web application using React Router and an API from IMDB. It allows users to view a list of latest movie releases and select a movie to read more about.',
-    languages: ['HTML', 'CSS', 'JavaScript', 'React', 'Pair-programming'],
+    description: 'A multi-page web application using React Router and an API from IMDB. It allows users to view a list of latest movie releases and select a movie to read more about. Built as a pair-programming project.',
+    languages: ['HTML', 'CSS', 'JavaScript', 'React'],
     githubLink: 'https://github.com/mvfrid/project-movies',
     netlifyLink: 'https://johanna-matilda-project-movies.netlify.app'
   },
