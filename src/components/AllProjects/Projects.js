@@ -5,8 +5,8 @@ export const projects = [
     title: 'Homeigo - Final project',
     description: 'A game made out of Ai lorem ipsum dores lirum A game made out of Ai lorem ipsum dores lirum A game made out of Ai lorem ipsum dores lirum',
     languages: ['Tech needed'],
-    githubLink: 'https://github.com/JohLeo/project-guess-who',
-    netlifyLink: 'https://poetic-cobbler-eaa36b.netlify.app'
+    githubLink: 'https://github.com/JohLeo/final-project',
+    netlifyLink: 'https://melodic-daffodil-115469.netlify.app'
   },
   {
     id: '02',
