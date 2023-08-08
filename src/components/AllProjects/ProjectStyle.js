@@ -51,7 +51,7 @@ justify-content: left;
 
 @media (min-width: 667px) {
     flex-direction: row;
-    align-items: center;
+    align-items: self-start;
     justify-content: center;
   }
 `
@@ -62,6 +62,10 @@ const Image = styled.img`
   max-width: 390px;
   height: 100%;
   margin-bottom: 20px;
+
+  @media (min-width: 667px) {
+    margin-top: 3px;
+  }
 `;
 
 export const ProjectImg = ({ src, alt, ariaLabel }) => {
