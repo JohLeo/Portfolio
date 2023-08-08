@@ -2,8 +2,8 @@ export const projects = [
   {
     id: '01',
     imgSrc: 'https://i.postimg.cc/gJ8xwHqv/Homeigo-final.png',
-    title: 'Homeigo - Final project',
-    description: 'A game made out of Ai lorem ipsum dores lirum A game made out of Ai lorem ipsum dores lirum A game made out of Ai lorem ipsum dores lirum',
+    title: 'Homeigo realtor website',
+    description: 'For our final project, we collaborated on creating a realtor homepage. Working as a team of three, we undertook the entire project – constructing the database, managing all the functionality, crafting the user interface and design. Our toolkit encompassed a variety of technologies, such as React, Redux, Node.js, and MongoDB. A notable highlight was our integration of a user-friendly map feature along with a search function, elevating the overall user experience.',
     techs: ['JavaScript', 'CSS3', 'HTML5', 'React', 'Redux', 'Express.js', 'Node.js', 'MongoDB', 'Styled Components', 'Mob-Programming'],
     githubLink: 'https://github.com/JohLeo/final-project',
     netlifyLink: 'https://melodic-daffodil-115469.netlify.app'
@@ -12,8 +12,8 @@ export const projects = [
     id: '02',
     imgSrc: 'https://i.postimg.cc/sDyhhqL1/Auth-16.png',
     title: 'Authentication',
-    description: 'A game made out of Ai lorem ipsum dores lirum A game made out of Ai lorem ipsum dores lirum A game made out of Ai lorem ipsum dores lirum',
-    techs: ['add something'],
+    description: 'A pair programming project focused on developing an authenticator system. Our main objectives were to implement secure token-based authentication and ensure the safe storage of user passwords within the database. With an emphasis on security and defensive design, our goal was to create an authenticator solution that prioritizes safety and reliability.',
+    techs: ['CSS3', 'HTML5', 'JavaScript', 'React', 'Redux', 'Express.js', 'Node.js', 'Styled Components'],
     githubLink: 'https://github.com/JohLeo/project-auth',
     netlifyLink: 'https://effortless-empanada-ad1e86.netlify.app/'
   },
