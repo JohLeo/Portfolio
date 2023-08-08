@@ -1,12 +1,23 @@
 import React from 'react';
 import styled from 'styled-components/macro';
+import { Header } from './lib/recomp'
+
+export const HeadContainerSkill = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+background: var(--skills);
+padding: 100px 0 0;
+`
 
 export const ContainerSkills = styled.div`
     display: flex;
     flex-wrap: wrap;
     background: var(--skills);
-    padding: 50px;
+    padding: 20px 0 50px;
 `
+
 export const SkillList = styled.dl`
     text-align: center;
     line-height: 25px;
@@ -52,43 +63,50 @@ export const Item = styled.dd`
 
 export const Skills = () => {
   return (
-    <ContainerSkills>
-      <SkillList>
-        <SkillCode>Code</SkillCode>
-        <Item>HTML5</Item>
-        <Item>CSS3</Item>
-        <Item>JavaScript ES6</Item>
-        <Item>React</Item>
-        <Item>Redux</Item>
-        <Item>Styled components</Item>
-        <Item>Node.js</Item>
-        <Item>GitHub</Item>
-        <Item>Mongo</Item>
-      </SkillList>
+    <>
+      <HeadContainerSkill>
+        <Header color="var(--blueHead)">
+        Tech
+        </Header>
+      </HeadContainerSkill>
+      <ContainerSkills>
+        <SkillList>
+          <SkillCode>Code</SkillCode>
+          <Item>HTML5</Item>
+          <Item>CSS3</Item>
+          <Item>JavaScript ES6</Item>
+          <Item>React</Item>
+          <Item>Redux</Item>
+          <Item>Styled components</Item>
+          <Item>Node.js</Item>
+          <Item>GitHub</Item>
+          <Item>Mongo</Item>
+        </SkillList>
 
-      <SkillList>
-        <SkillTool>Toolbox</SkillTool>
-        <Item>Postman</Item>
-        <Item>Google Cloud</Item>
-        <Item>Figma</Item>
-        <Item>Adobe Design</Item>
-        <Item>Adobe Illustratior</Item>
-        <Item>Trello</Item>
-        <Item>Slack</Item>
-      </SkillList>
+        <SkillList>
+          <SkillTool>Toolbox</SkillTool>
+          <Item>Postman</Item>
+          <Item>Google Cloud</Item>
+          <Item>Figma</Item>
+          <Item>Adobe Design</Item>
+          <Item>Adobe Illustratior</Item>
+          <Item>Trello</Item>
+          <Item>Slack</Item>
+        </SkillList>
 
-      <SkillList>
-        <SkillMore>More</SkillMore>
-        <Item>Agile methodology</Item>
-        <Item>Mob-programming</Item>
-        <Item>Pair-programming</Item>
-      </SkillList>
+        <SkillList>
+          <SkillMore>More</SkillMore>
+          <Item>Agile methodology</Item>
+          <Item>Mob-programming</Item>
+          <Item>Pair-programming</Item>
+        </SkillList>
 
-      <SkillList>
-        <SkillItem>Ongoing</SkillItem>
-        <Item>React Native</Item>
-        <Item>Typescript</Item>
-      </SkillList>
-    </ContainerSkills>
+        <SkillList>
+          <SkillItem>Ongoing</SkillItem>
+          <Item>React Native</Item>
+          <Item>Typescript</Item>
+        </SkillList>
+      </ContainerSkills>
+    </>
   )
 }

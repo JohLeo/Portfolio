@@ -11,7 +11,7 @@ body {
   --background: #fff;
   --tech: #F6EEE3;
   --mywords: #FFCCC6;
-  --skills: #FFFEEC;
+  --skills: #fdfcdd;
 
   --greenHead: #3A6447;
   --blueHead: #AEB4F4;
@@ -31,7 +31,7 @@ body {
   --demoBtn: #3A6447;
   --codeBtn: #6DB486;
   --readBtn: #EDFF8B;
-  --defaultBtn: #FFFEEC;
+  --defaultBtn: #95958d;
   }
 
 code {

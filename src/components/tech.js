@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/macro';
+import { Header } from './lib/recomp';
 
 export const Container = styled.div`
 display: flex;
@@ -38,6 +39,9 @@ export const TagMob = styled.span`
 export const TechStack = () => {
   return (
     <Container>
+      <Header color="var(--greenHead)">
+        Tech
+      </Header>
       <TechText>
         HTML, CSS, Flexbox, <TagJs>JavaScript,</TagJs> ES6,
         JSX, React, <TagReact>React</TagReact> Hooks, Redux,

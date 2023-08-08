@@ -6,7 +6,7 @@ import { ProfileContainer, ProfileImgText, ProfileText, Mail, Phone, IconsContai
 export const Footer = () => {
   return (
     <ProfileContainer>
-      <Header color="var(--blueHead)">
+      <Header color="var(--greenHead)">
         Lets connect!
       </Header>
 
