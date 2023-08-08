@@ -85,7 +85,8 @@ export const Skills = () => {
       </SkillList>
 
       <SkillList>
-        <SkillItem>Upcoming</SkillItem>
+        <SkillItem>Ongoing</SkillItem>
+        <Item>React Native</Item>
         <Item>Typescript</Item>
       </SkillList>
     </ContainerSkills>

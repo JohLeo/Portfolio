@@ -36,7 +36,7 @@ export const ProfilePic = ({ src, alt, ariaLabel, centered }) => {
 const BreadParagraph = styled.p`
   font-size: 13px;
   color: var(--fontColormain);
-  font-weight: 300;
+  font-weight: 400;
   padding-right: 10px;
   margin: 10px 0 0 0;
   max-width: 310px;
