@@ -28,8 +28,8 @@ export const ProjectStack = () => {
               </Paragraph>
 
               <TechRow>
-                {project.languages && project.languages.map((language) => (
-                  <Project text={language} />
+                {project.techs && project.techs.map((tech) => (
+                  <Project text={tech} />
                 ))}
               </TechRow>
 

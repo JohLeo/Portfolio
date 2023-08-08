@@ -21,9 +21,11 @@ padding: 60px 20px 10px 20px;
 `
 
 export const TechRow = styled.div`
-display: flex;
-justify-content: left;
-background: var(--background);
+  display: flex;
+  flex-wrap: wrap;
+  background: var(--background);
+  max-width: 320px;
+  margin: 20px 0 20px 0;
 `
 
 export const Btns = styled.div`
@@ -82,8 +84,7 @@ export const ProjectName = ({ children }) => {
 const ProjectTech = styled.p`
   font-size: 13px;
   font-weight: 300;
-  margin: 20px 10px 20px 0;
-  max-width: 380px;
+  margin: 0 10px 8px 0;
   background-color: var(--codeTag);
   color: #FFFFFF;
   padding: 4px 8px;
