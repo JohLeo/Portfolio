@@ -34,6 +34,10 @@ flex-direction: column;
 justify-content: left;
 background: var(--background);
 padding: 0 0 40px 0;
+
+@media (min-width: 769px) {
+    flex-direction: row;
+  }
 `
 
 export const ProjectInfo = styled.div`
@@ -102,7 +106,7 @@ export const Project = ({ text }) => {
 const Button = styled.a`
   display: flex;
   padding: 8px 18px;
-  margin-bottom: 10px;
+  margin: 0 10px 10px 0;
   background: #e0e0e0;
   color: #fff;
   text-decoration: none;
