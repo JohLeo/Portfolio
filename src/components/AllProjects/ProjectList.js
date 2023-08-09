@@ -8,7 +8,7 @@ export const ProjectStack = () => {
 
     <>
       <ProjectHead>
-        <Header>Featured projects</Header>
+        <Header>Projects</Header>
       </ProjectHead>
 
       <div>

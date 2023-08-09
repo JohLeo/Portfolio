@@ -9,14 +9,23 @@ align-items: center;
 text-align: center;
 background: var(--tech);
 padding: 100px 20px 100px 20px;
+
+@media (min-width: 1024px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    text-align: left;
+  }
 `
+
 export const TechText = styled.p`
   font-size: 15px;
   color: var(--fontColormain);
   font-weight: 300;
   line-height: 28px;
   padding-right: 10px;
-  margin: 20px 0 0 20px;
+  margin: 50px 0 0 20px;
   max-width: 380px;
 `
 
@@ -39,7 +48,7 @@ export const TagMob = styled.span`
 export const TechStack = () => {
   return (
     <Container>
-      <Header color="var(--greenHead)">
+      <Header margin="25px 0 0 0" color="var(--greenHead)">
         Tech
       </Header>
       <TechText>
