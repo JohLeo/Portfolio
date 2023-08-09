@@ -1,27 +1,28 @@
 import React from 'react';
 import { ProfilePic, Paragraph } from '../lib/recomp'
 import { Name, Title, TitleSkill } from '../lib/styled';
-import { ProfileContainer, ProfileImgText, ProfileText, IconsContainer, Icons } from './PersonalStyle';
+import { IntroContainer, ColorSection, ProfileContainer, ProfileImgText, ProfileText, IconsContainer, Icons } from './PersonalStyle';
 
 export const TheProfile = () => {
   return (
+    <IntroContainer>
+      <ColorSection />
+      <ProfileContainer>
+        <ProfileImgText>
+          <ProfilePic
+            src="https://i.postimg.cc/MKDz5Qww/jl.jpg"
+            alt="Picture of Johanna"
+            ariaLabel="Johanna's profile picture"
+            centered />
 
-    <ProfileContainer>
-      <ProfileImgText>
-        <ProfilePic
-          src="https://i.postimg.cc/MKDz5Qww/jl.jpg"
-          alt="Picture of Johanna"
-          ariaLabel="Johanna's profile picture"
-          centered />
+          <ProfileText>
+            <Name>Johanna Leonsson</Name>
+            <Title>Frontend developer</Title>
+            <TitleSkill>+ digital designer</TitleSkill>
+          </ProfileText>
+        </ProfileImgText>
 
-        <ProfileText>
-          <Name>Johanna Leonsson</Name>
-          <Title>Frontend developer</Title>
-          <TitleSkill>+ digital designer</TitleSkill>
-        </ProfileText>
-      </ProfileImgText>
-
-      <Paragraph AboutText="AboutText">
+        <Paragraph AboutText="AboutText">
         Hi! <br />
         I&apos;m Johanna, a full-stack developer with a passion for crafting web experiences.
         My journey in web development has equipped me with valuable technical skills and
@@ -42,27 +43,28 @@ export const TheProfile = () => {
         If you&apos;re looking for a dedicated developer to bring your ideas to life,
         I&apos;d be thrilled to hear from you — I&apos;m here to listen and explore
         new opportunities with excitement!
-      </Paragraph>
-      <IconsContainer>
-        <Icons
-          className="icon"
-          href="https://www.linkedin.com/in/johannaleonsson/"
-          aria-label="Link to Johannas Linkedin"
-          target="_blank"
-          rel="noopener noreferrer">
-          <i className="fa-brands fa-linkedin-in" />
-        </Icons>
+        </Paragraph>
+        <IconsContainer>
+          <Icons
+            className="icon"
+            href="https://www.linkedin.com/in/johannaleonsson/"
+            aria-label="Link to Johannas Linkedin"
+            target="_blank"
+            rel="noopener noreferrer">
+            <i className="fa-brands fa-linkedin-in" />
+          </Icons>
 
-        <Icons
-          className="icon"
-          href="https://github.com/JohLeo"
-          aria-label="Link to Johannas GitHub"
-          target="_blank"
-          rel="noopener noreferrer">
-          <i className="fa-brands fa-github" />
-        </Icons>
-      </IconsContainer>
-    </ProfileContainer>
+          <Icons
+            className="icon"
+            href="https://github.com/JohLeo"
+            aria-label="Link to Johannas GitHub"
+            target="_blank"
+            rel="noopener noreferrer">
+            <i className="fa-brands fa-github" />
+          </Icons>
+        </IconsContainer>
+      </ProfileContainer>
+    </IntroContainer>
 
   )
 }

@@ -1,5 +1,37 @@
 import styled from 'styled-components/macro';
 
+export const IntroContainer = styled.section`
+    display: flex;
+
+    @media (min-width: 668px) and (max-width: 1023px) {
+        
+        flex-direction: column;
+    }
+
+    @media (min-width: 1024px) {
+        height: 100vh;
+        flex-direction: row-reverse;
+    }
+`
+
+export const ColorSection = styled.div`
+    display: none;
+
+
+    @media (min-width: 668px) and (max-width: 1023px) {
+        display: flex;
+        background-color: pink;
+        height: 300px;
+    }
+
+    @media (min-width: 1024px) {
+        display: flex;
+        width: 50%;
+        background-color: pink;
+        
+    }
+`
+
 export const ProfileContainer = styled.div`
 display: flex;
 flex-direction: column;

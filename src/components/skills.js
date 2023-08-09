@@ -66,7 +66,7 @@ export const Skills = () => {
     <>
       <HeadContainerSkill>
         <Header color="var(--blueHead)">
-        Tech
+        Skills
         </Header>
       </HeadContainerSkill>
       <ContainerSkills>
