@@ -15,7 +15,7 @@ export const TheProfile = () => {
       <ProfileContainer>
         <ProfileImgText>
           <ProfilePic
-            src="https://i.postimg.cc/MKDz5Qww/jl.jpg"
+            src="https://i.postimg.cc/cCSqbLh4/profiletemp.png"
             alt="Picture of Johanna"
             ariaLabel="Johanna's profile picture"
             centered />
@@ -29,7 +29,7 @@ export const TheProfile = () => {
 
         <Paragraph AboutText="AboutText">
         Hi! <br />
-        I&apos;m Johanna, a full-stack developer with a passion for crafting web experiences.
+        I&apos;m Johanna, a full-stack developer with a passion for creating web experiences.
         My journey in web development has equipped me with valuable technical skills and
         a creative mindset. My background in communications and design
         gives me a fresh perspective to web development projects.

@@ -12,7 +12,7 @@ export const Footer = () => {
 
       <ProfileImgText>
         <ProfilePic
-          src="https://i.postimg.cc/MKDz5Qww/jl.jpg"
+          src="https://i.postimg.cc/cCSqbLh4/profiletemp.png"
           alt="Picture of Johanna"
           ariaLabel="Johanna's profile picture" />
 
