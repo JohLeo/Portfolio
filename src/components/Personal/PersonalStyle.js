@@ -86,11 +86,12 @@ display: flex;
 flex-direction: column;
 justify-content: left;
 background: var(--background);
-padding: 60px 20px 10px 20px;
+padding: 100px 20px 10px 20px;
 
 @media (min-width: 667px) {
     align-items: center;
     margin: auto;
+    padding: 60px 20px 10px 20px;
   }
 `
 export const ProfileImgText = styled.div`

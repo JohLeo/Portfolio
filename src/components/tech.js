@@ -5,10 +5,11 @@ import { Header } from './lib/recomp';
 export const Container = styled.div`
 display: flex;
 flex-direction: column;
+height: 50vh;
 align-items: center;
 text-align: center;
 background: var(--tech);
-padding: 100px 20px 100px 20px;
+padding: 100px 20px 30px 20px;
 
 @media (min-width: 1024px) {
     display: flex;
@@ -16,6 +17,7 @@ padding: 100px 20px 100px 20px;
     justify-content: center;
     gap: 80px;
     text-align: left;
+    padding: 100px 20px 100px 20px;
   }
 `
 
