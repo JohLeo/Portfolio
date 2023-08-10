@@ -1,10 +1,9 @@
-import styled from 'styled-components/macro';
+import styled, { keyframes } from 'styled-components/macro';
 
 export const IntroContainer = styled.section`
     display: flex;
 
     @media (min-width: 668px) and (max-width: 1023px) {
-        
         flex-direction: column;
     }
 
@@ -14,21 +13,71 @@ export const IntroContainer = styled.section`
     }
 `
 
+export const Hej = styled.h1`
+  font-size: 30px;
+  color: var(--background);
+  font-family: Josefin Sans;
+  font-weight: 300;
+
+  @media (min-width: 668px) and (max-width: 1023px) {
+      display: none;
+    }
+
+   @media (min-width: 1024px) {
+    font-size: 90px;
+    margin: 80px 0 0 48px;
+   }
+`
+
+const LeColor = keyframes`
+  0% { background-color: var(--tech); }
+  25% { background-color: var(--mywords); }
+  50% { background-color: var(--skills); }
+  75% { background-color: var(--blueHead); }
+  100% { background-color: var(--codeMore); }
+`;
+
+export const Blob = styled.div`
+  background-color: var(--tech);
+  background-size: cover;
+  background-position: center center;
+  height: 250px;
+  width: 250px;
+  animation: ${LeColor} 20s ease-in-out infinite, animate 20s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+  
+  @keyframes animate {
+  0% {
+    border-radius: 60% 40% 30% 80% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 40% 60% 50% 60% / 40% 60% 50% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 80% / 60% 30% 70% 40%;
+  }
+}
+
+@media (min-width: 668px) and (max-width: 1023px) {
+        display: none;
+    }
+`
+
 export const ColorSection = styled.div`
     display: none;
-
+    animation: ${LeColor} 30s linear infinite;
+    justify-content: center;
 
     @media (min-width: 668px) and (max-width: 1023px) {
         display: flex;
-        background-color: pink;
-        height: 300px;
+        height: 120px;
+        clip-path: polygon(0 0, 100% 0, 100% 60%, 0% 80%);
     }
 
     @media (min-width: 1024px) {
         display: flex;
         width: 50%;
-        background-color: pink;
-        
+        align-items: center;
     }
 `
 
@@ -41,6 +90,7 @@ padding: 60px 20px 10px 20px;
 
 @media (min-width: 667px) {
     align-items: center;
+    margin: auto;
   }
 `
 export const ProfileImgText = styled.div`
