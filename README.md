@@ -1,3 +1,3 @@
-# Portfolio Johanna Leonsson
+## Portfolio 
 
-## Usage  www.johannaleonsson.com
+## www.johannaleonsson.com
