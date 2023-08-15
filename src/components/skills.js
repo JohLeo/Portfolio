@@ -55,21 +55,21 @@ export const SkillTool = styled.dt`
     display: inline-block;
     margin: 0 0 10px 0;
     color: #fff;
-    background: var(--codeSkill);
+    background: var(--codeTool);
     padding: 4px;
 `
 export const SkillMore = styled.dt`
     display: inline-block;
     margin: 0 0 10px 0;
     color: #fff;
-    background: var(--codeSkill);
+    background: var(--codeMore);
     padding: 4px;
 `
 export const SkillItem = styled.dt`
     display: inline-block;
     margin: 0 0 10px 0;
     color: #fff;
-    background: var(--codeSkill);
+    background: var(--codeUp);
     padding: 4px;
 `
 
@@ -92,7 +92,7 @@ export const Skills = () => {
   return (
     <>
       <HeadContainerSkill>
-        <Header color="var(--codeSkill)">
+        <Header color="var(--fontColormain)">
         Skills
         </Header>
       </HeadContainerSkill>

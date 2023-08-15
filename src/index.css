@@ -9,27 +9,30 @@ body {
 }
 
 :root {
-  --background: #fff;
-  --tech: #f6eee3;
-  --mywords: #FFCCC6;
-  --skills: #f8fce0;
-
-  --greenHead: #3A6447;
-  --blueHead: #c9aefb;
-  --fontColor: #141414;
-  --fontColormain: #5d5d5d;
-
-  --codeTag: #141414;
-  --codeSkill: #3e3d3d;
-
-  --icons: #3c3b3b;
-  --Hover: #3A6447;
-
-
-  --demoBtn: #3A6447;
-  --codeBtn: #6DB486;
-  --readBtn: #EDFF8B;
-  --defaultBtn: #95958d;
+    --background: #fff;
+    --tech: #F6EEE3;
+    --mywords: #FFCCC6;
+    --skills: #fdfcdd;
+  
+    --greenHead: #3A6447;
+    --blueHead: #AEB4F4;
+    --fontColor: #141414;
+    --fontColormain: #5d5d5d;
+  
+    --codeTag: #141414;
+    --codeSkill: #80fb7ab1;
+    --codeTool: #c57afb9c;
+    --codeMore: #fbc57acb;
+    --codeUp: #7afbb8b9;
+  
+    --icons: #3c3b3b;
+    --Hover: #3A6447;
+  
+  
+    --demoBtn: #3A6447;
+    --codeBtn: #6DB486;
+    --readBtn: #EDFF8B;
+    --defaultBtn: #95958d;
   }
 
 code {
