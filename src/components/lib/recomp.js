@@ -34,7 +34,7 @@ export const ProfilePic = ({ src, alt, ariaLabel, centered }) => {
 
 // Breadtext
 const BreadParagraph = styled.p`
-  font-size: 14px;
+  font-size: 15px;
   color: var(--fontColormain);
   font-weight: 400;
   padding-right: 10px;

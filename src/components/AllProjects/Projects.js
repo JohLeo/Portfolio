@@ -3,7 +3,7 @@ export const projects = [
     id: '01',
     imgSrc: 'https://i.postimg.cc/gJ8xwHqv/Homeigo-final.png',
     title: 'Homeigo realtor website',
-    description: 'For our final project, we collaborated on creating a realtor homepage. Working as a team of three, we undertook the entire project – constructing the database, managing all the functionality, crafting the user interface and design. Our toolkit encompassed a variety of technologies, such as React, Redux, Node.js, and MongoDB. A notable highlight was our integration of a user-friendly map feature along with a search function, elevating the overall user experience.',
+    description: 'For our final project, we collaborated on creating a realtor homepage. Working as a team of three, we undertook the entire project – constructing the database, managing all the functionality, crafting the user interface and design. Our toolkit included a variety of technologies, such as React, Redux, Node.js, and MongoDB. A notable highlight was our integration of a user-friendly map feature along with a search function, elevating the overall user experience.',
     techs: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Redux', 'Express.js', 'Node.js', 'MongoDB', 'Styled Components', 'Mob-Programming'],
     githubLink: 'https://github.com/JohLeo/final-project',
     netlifyLink: 'https://melodic-daffodil-115469.netlify.app'

@@ -30,11 +30,11 @@ export const Hej = styled.h1`
 `
 
 const LeColor = keyframes`
-  0% { background-color: var(--tech); }
-  25% { background-color: var(--mywords); }
-  50% { background-color: var(--skills); }
-  75% { background-color: var(--blueHead); }
-  100% { background-color: var(--codeMore); }
+  0% , 100% { background-color: var(--tech); }
+  20% { background-color: var(--mywords); }
+  45% { background-color: var(--codeTool); }
+  70% { background-color: var(--blueHead); }
+  90% { background-color: var(--codeMore); }
 `;
 
 export const Blob = styled.div`
@@ -43,8 +43,8 @@ export const Blob = styled.div`
   background-position: center center;
   height: 250px;
   width: 250px;
-  animation: ${LeColor} 20s ease-in-out infinite, animate 20s ease-in-out infinite;
-  transition: all 1s ease-in-out;
+  animation: ${LeColor} 40s ease-in-out infinite, animate 30s ease-in-out infinite;
+  transition: all 2s ease-in-out;
   
   @keyframes animate {
   0% {

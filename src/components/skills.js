@@ -14,17 +14,35 @@ padding: 100px 0 0;
 export const ContainerSkills = styled.div`
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background: var(--skills);
-    padding: 20px 0 50px;
+    padding: 20px 0 200px;
+
+    @media (min-width: 668px) and (max-width: 1023px) {
+      padding: 20px 0 120px;
+    }
+
+    @media (min-width: 1024px) {
+      padding: 20px 0 150px;
+    }
 `
 
 export const SkillList = styled.dl`
     text-align: center;
     line-height: 25px;
     margin: 20px auto;
-    width: 190px;
+    width: 200px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
+
+    @media (min-width: 668px) and (max-width: 1023px) {
+        width: 260px;
+        margin: 20px 20px 30px 20px;
+    }
+
+    @media (min-width: 1024px) {
+      margin: 20px;
+    }
 `
 export const SkillCode = styled.dt`
     display: inline-block;
@@ -37,35 +55,44 @@ export const SkillTool = styled.dt`
     display: inline-block;
     margin: 0 0 10px 0;
     color: #fff;
-    background: var(--codeTool);
+    background: var(--codeSkill);
     padding: 4px;
 `
 export const SkillMore = styled.dt`
     display: inline-block;
     margin: 0 0 10px 0;
     color: #fff;
-    background: var(--codeMore);
+    background: var(--codeSkill);
     padding: 4px;
 `
 export const SkillItem = styled.dt`
     display: inline-block;
     margin: 0 0 10px 0;
     color: #fff;
-    background: var(--codeUp);
+    background: var(--codeSkill);
     padding: 4px;
 `
 
 export const Item = styled.dd`
     margin: 0;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 18px;
+    line-height: 25px;
+
+    @media (min-width: 668px) and (max-width: 1023px) {
+        line-height: 30px;
+    }
+
+    @media (min-width: 1024px) {
+      line-height: 35px;
+    }
 `
 
 export const Skills = () => {
   return (
     <>
       <HeadContainerSkill>
-        <Header color="var(--blueHead)">
+        <Header color="var(--codeSkill)">
         Skills
         </Header>
       </HeadContainerSkill>

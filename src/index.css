@@ -10,20 +10,17 @@ body {
 
 :root {
   --background: #fff;
-  --tech: #F6EEE3;
+  --tech: #f6eee3;
   --mywords: #FFCCC6;
-  --skills: #fdfcdd;
+  --skills: #f8fce0;
 
   --greenHead: #3A6447;
-  --blueHead: #AEB4F4;
+  --blueHead: #bc77d9;
   --fontColor: #141414;
   --fontColormain: #5d5d5d;
 
   --codeTag: #141414;
-  --codeSkill: #81fb7a;
-  --codeTool: #c57afb;
-  --codeMore: #fbc57a;
-  --codeUp: #7afbb8;
+  --codeSkill: #3e3d3d;
 
   --icons: #3c3b3b;
   --Hover: #3A6447;
