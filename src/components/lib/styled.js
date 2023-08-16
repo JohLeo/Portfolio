@@ -27,7 +27,7 @@ background: var(--background);
 padding: 0 0 40px 10px;
 `
 
-export const Name = styled.h3`
+export const Name = styled.h5`
   font-size: 20px;
   color: var(--greenHead);
   font-weight: 700;

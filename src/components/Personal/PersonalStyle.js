@@ -138,6 +138,44 @@ export const Phone = styled.a`
     }
 `
 
+export const FootContainer = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: left;
+background: var(--background);
+padding: 90px 20px 10px 20px;
+box-sizing: border-box;
+overflow: scroll;
+background-color: var(--footer);
+
+@media (min-width: 667px) {
+    align-items: center;
+    margin: 0;
+    padding: 60px 20px 10px 20px;
+  }
+`
+
+const rotate = keyframes`
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+`;
+
+export const ConnectIcon = styled.img`
+ width: 90px;
+ animation: ${rotate} 6s linear infinite;
+ margin: 0 20px 90px 0;
+ align-self: flex-end;
+
+ @media (min-width: 667px) {
+   margin: 50px;
+   align-self: center;
+  }
+`
+
 export const IconsContainer = styled.div`
 display: flex;
 flex-direction: row;
