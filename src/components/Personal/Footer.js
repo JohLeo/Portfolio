@@ -1,14 +1,13 @@
 import React from 'react';
-import { Header, ProfilePic } from '../lib/recomp'
+import HiIcon from 'img/connect.svg';
+import { ProfilePic } from '../lib/recomp'
 import { Name, Title, TitleSkill } from '../lib/styled'
-import { ProfileContainer, ProfileImgText, ProfileText, Mail, Phone, IconsContainer, Icons } from './PersonalStyle';
+import { FootContainer, ProfileImgText, ProfileText, Mail, Phone, ConnectIcon, IconsContainer, Icons } from './PersonalStyle';
 
 export const Footer = () => {
   return (
-    <ProfileContainer>
-      <Header color="var(--greenHead)">
-        Lets connect!
-      </Header>
+    <FootContainer>
+      <ConnectIcon src={HiIcon} alt="Lets connect" />
 
       <ProfileImgText>
         <ProfilePic
@@ -54,6 +53,6 @@ export const Footer = () => {
           <i className="fa-brands fa-github" />
         </Icons>
       </IconsContainer>
-    </ProfileContainer>
+    </FootContainer>
   )
 }

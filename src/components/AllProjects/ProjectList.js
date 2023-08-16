@@ -47,9 +47,7 @@ export const ProjectStack = () => {
               </Btns>
             </ProjectInfo>
           </ProjectsCont>
-
         ))}
-
       </div>
     </>
 
