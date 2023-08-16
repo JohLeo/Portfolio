@@ -36,4 +36,14 @@
     font-style: normal;
 }
 
-
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed';
+    src: url('GTWalsheimPro-CondensedBlack.eot');
+    src: local('GT Walsheim Pro Condensed Black'), local('GTWalsheimPro-CondensedBlack'),
+        url('GTWalsheimPro-CondensedBlack.eot?#iefix') format('embedded-opentype'),
+        url('GTWalsheimPro-CondensedBlack.woff2') format('woff2'),
+        url('GTWalsheimPro-CondensedBlack.woff') format('woff'),
+        url('GTWalsheimPro-CondensedBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

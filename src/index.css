@@ -8,8 +8,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, p, dt, a {
+h3, p, dt, a {
   font-family: 'GT Walsheim Pro', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'GT Walsheim Pro Condensed', sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 :root {
