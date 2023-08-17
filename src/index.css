@@ -15,7 +15,6 @@ p {
 }
 
 h1, h5, dt, a {
-p {
   font-family: 'GT Walsheim Pro', sans-serif;
   font-weight: 100;
   line-height: 23px;
@@ -31,7 +30,6 @@ h1, h5, h4, dt {
   font-family: 'GT Walsheim Pro', sans-serif;
 }
 
-h2, h3 {
 h2, h3 {
   font-family: 'GT Walsheim Pro Condensed', sans-serif;
   font-weight: 900;

@@ -25,7 +25,7 @@ export const Hej = styled.h1`
 
    @media (min-width: 1024px) {
     font-size: 90px;
-    margin: 80px 0 0 48px;
+    margin: 115px 0 0 48px;
    }
 `
 
@@ -33,7 +33,7 @@ const LeColor = keyframes`
   0% , 100% { background-color: var(--tech); }
   30% { background-color: var(--mywords); }
   60% { background-color: var(--skills); }
-  90% { background-color: var(--blueHead); }
+  90% { background-color: var(--footer); }
 `;
 
 export const Blob = styled.div`
