@@ -31,7 +31,7 @@ export const Hej = styled.h1`
 
 const LeColor = keyframes`
   0% , 100% { background-color: var(--tech); }
-  30% { background-color: var(--mywords); }
+  30% { background-color: var(--codeMore); }
   60% { background-color: var(--skills); }
   90% { background-color: var(--footer); }
 `;
