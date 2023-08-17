@@ -16,14 +16,14 @@ export const ContainerSkills = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     background: var(--skills);
-    padding: 20px 0 200px;
+    padding: 20px 0 150px;
 
     @media (min-width: 668px) and (max-width: 1023px) {
       padding: 20px 0 120px;
     }
 
     @media (min-width: 1024px) {
-      padding: 20px 0 150px;
+      padding: 20px 0 120px;
     }
 `
 

@@ -7,12 +7,17 @@ flex-direction: column;
 padding-top: 20px;
 `
 
+export const ProjectColor = styled.div`
+ background-color: var(--projects);
+`
+
 export const ProjectHead = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: left;
 background: var(--background);
 padding: 100px 20px 10px 20px;
+background-color: var(--projects);
 
 @media (min-width: 667px) {
     flex-direction: row;
@@ -26,6 +31,7 @@ export const TechRow = styled.div`
   background: var(--background);
   max-width: 320px;
   margin: 20px 0 20px 0;
+  background-color: var(--projects);
 `
 
 export const Btns = styled.div`
@@ -34,6 +40,7 @@ flex-direction: column;
 justify-content: left;
 background: var(--background);
 padding: 0 0 40px 0;
+background-color: var(--projects);
 
 @media (min-width: 769px) {
     flex-direction: row;
@@ -44,14 +51,16 @@ export const ProjectInfo = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: left;
-background: var(--background);
-padding: 0 20px 10px 20px;
+background-color: var(--projects);
+padding: 0 20px 30px 20px;
+
 `
 
 export const ProjectsCont = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: left;
+background-color: var(--projects);
 
 @media (min-width: 667px) {
     flex-direction: row;
@@ -107,8 +116,8 @@ const Button = styled.a`
   display: flex;
   padding: 8px 18px;
   margin: 0 10px 10px 0;
-  background: #e0e0e0;
-  color: #fff;
+  background: #fff;
+  color: #141414;
   text-decoration: none;
   border-radius: 20px;
   width: fit-content;
@@ -116,6 +125,7 @@ const Button = styled.a`
 
   &:hover {
     background: ${(props) => props.hoverColor || '#000'};
+    color: #fff;
   }
   i {
     font-size: 20px; 

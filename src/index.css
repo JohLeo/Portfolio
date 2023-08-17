@@ -14,6 +14,13 @@ p {
   line-height: 23px;
 }
 
+h1, h5, dt, a {
+p {
+  font-family: 'GT Walsheim Pro', sans-serif;
+  font-weight: 100;
+  line-height: 23px;
+}
+
 a {
 font-family: 'GT Walsheim Pro';
 font-weight: normal;
@@ -25,6 +32,7 @@ h1, h5, h4, dt {
 }
 
 h2, h3 {
+h2, h3 {
   font-family: 'GT Walsheim Pro Condensed', sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -34,13 +42,13 @@ h2, h3 {
 :root {
     --background: #fff;
     --tech: #F6EEE3;
-    --mywords: #FFCCC6;
-    --skills: #fdfcdd;
+    --projects: #E8E0D8;
+    --skills: #F6CFDC;
+    --footer: #F5C703;
   
-    --greenHead: #3A6447;
-    --blueHead: #AEB4F4;
+    --greenHead: #233d2b;
     --fontColor: #141414;
-    --fontColormain: #5d5d5d;
+    --fontColormain: #151515;
   
     --codeTag: #141414;
     --codeSkill: #80fb7ab1;
@@ -52,10 +60,9 @@ h2, h3 {
     --Hover: #3A6447;
   
   
-    --demoBtn: #3A6447;
-    --codeBtn: #6DB486;
-    --readBtn: #EDFF8B;
-    --defaultBtn: #95958d;
+    --demoBtn: #212a21;
+    --codeBtn: #1a381d;
+    --defaultBtn: #ffffff;
   }
 
 code {
