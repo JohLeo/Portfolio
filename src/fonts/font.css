@@ -14,13 +14,13 @@
 
 @font-face {
     font-family: 'GT Walsheim Pro';
-    src: url('GTWalsheimPro-Thin.eot');
-    src: local('GT Walsheim Pro Thin'), local('GTWalsheimPro-Thin'),
-        url('GTWalsheimPro-Thin.eot?#iefix') format('embedded-opentype'),
-        url('GTWalsheimPro-Thin.woff2') format('woff2'),
-        url('GTWalsheimPro-Thin.woff') format('woff'),
-        url('GTWalsheimPro-Thin.ttf') format('truetype');
-    font-weight: 100;
+    src: url('GTWalsheimPro-Light.eot');
+    src: local('GT Walsheim Pro Light'), local('GTWalsheimPro-Light'),
+        url('GTWalsheimPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('GTWalsheimPro-Light.woff2') format('woff2'),
+        url('GTWalsheimPro-Light.woff') format('woff'),
+        url('GTWalsheimPro-Light.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
 }
 
