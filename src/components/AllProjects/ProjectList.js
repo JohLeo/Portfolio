@@ -1,18 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Header, Paragraph } from '../lib/recomp';
 import { ProjectHead, ProjectsCont, TechRow, Btns, ProjectInfo, ProjectName, ProjectImg, Project, ViewButton } from './ProjectStyle';
 import { projects } from './Projects';
+import { Pagination } from './pagination'; // Import the Pagination component
+
+const ProjectsPerPage = 4;
 
 export const ProjectStack = () => {
-  return (
+  const [currentPage, setCurrentPage] = useState(1);
 
+  const indexOfLastProject = currentPage * ProjectsPerPage;
+  const indexOfFirstProject = indexOfLastProject - ProjectsPerPage;
+  const currentProjects = projects.slice(indexOfFirstProject, indexOfLastProject);
+
+  const totalPages = Math.ceil(projects.length / ProjectsPerPage);
+
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
+  return (
     <>
       <ProjectHead>
         <Header>Projects</Header>
       </ProjectHead>
 
       <div>
-        {projects.map((project) => (
+        {currentProjects.map((project) => (
           <ProjectsCont key={project.id}>
             <ProjectInfo>
               <ProjectImg
@@ -48,8 +62,12 @@ export const ProjectStack = () => {
             </ProjectInfo>
           </ProjectsCont>
         ))}
+
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={handlePageChange} />
       </div>
     </>
-
   );
 };

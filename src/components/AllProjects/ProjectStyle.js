@@ -1,16 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 
-export const Center = styled.div`
-display: flex;
-flex-direction: column;
-padding-top: 20px;
-`
-
-export const ProjectColor = styled.div`
- background-color: var(--projects);
-`
-
 export const ProjectHead = styled.div`
 display: flex;
 flex-direction: column;
@@ -52,7 +42,7 @@ display: flex;
 flex-direction: column;
 justify-content: left;
 background-color: var(--projects);
-padding: 0 20px 30px 20px;
+padding: 0 20px 10px 20px;
 
 `
 
