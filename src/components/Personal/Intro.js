@@ -29,25 +29,15 @@ export const TheProfile = () => {
 
         <Paragraph AboutText="AboutText">
         Hi! <br />
-        I&apos;m Johanna, a full-stack developer with a passion for creating web experiences.
-        My journey in web development has equipped me with valuable technical skills and
-        a creative mindset. My background in communications and design
-        gives me a fresh perspective to web development projects.
-        Having worked in various industries and roles, I understands the power
-        of collaboration and strive to delivering exceptional results.<br /><br />
-
-        My eagerness to learn and grow drives me to continuously enhance my abilities.
-        I take great care in paying attention to aesthetics and user experience,
-        striving to create immersive web experiences that resonate with users.<br /><br />
-
-        With a focus on problem-solving and a commitment to delivering quality work,
-        I approach every project with diligence and precision.
-        Your web development needs are important to me, and I will do my best to meet
-        them.<br /><br />
-
-        If you&apos;re looking for a dedicated developer to bring your ideas to life,
-        I&apos;d be thrilled to hear from you — I&apos;m here to listen and explore
-        new opportunities with excitement!
+        I&apos;m Johanna, a frontend developer passionate about creating
+        engaging web experiences. Drawing from my varied industry background,
+        I prioritize teamwork and quality result. My approach to web projects
+        is influenced by my foundation in communication and design, allowing
+        me to blend user-focused functionality with visual aesthetics.
+        My drive to continually learn and grow fuels my ability to stay current
+        with the latest trends and technologies. I approach challenges with a
+        practical mindset and attention to detail to ensure your
+        needs are met.
         </Paragraph>
         <IconsContainer>
           <Icons

@@ -40,8 +40,9 @@ export const Title = styled.h2`
   margin: 0;
 `
 export const TitleSkill = styled.h4`
-  font-size: 15px;
+  font-size: 18px;
   color: var(--fontColormain);
-  font-weight: 500;
+  font-weight: 400;
+  letter-spacing: 0cap.5;
   margin: 3px 0 0 0;
 `

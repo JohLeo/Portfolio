@@ -118,7 +118,6 @@ margin-top: 15px;
 
 export const Mail = styled.a`
   font-size: 20px;
-  font-weight: 700;
   color: var(--fontColor);
   margin-top: 40px;
   text-decoration: none;
@@ -127,9 +126,9 @@ export const Mail = styled.a`
       color: var(--Hover);
     }
 `
+
 export const Phone = styled.a`
   font-size: 18px;
-  font-weight: 600;
   color: var(--fontColor);
   margin: 0;
   text-decoration: none;
