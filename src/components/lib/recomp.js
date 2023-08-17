@@ -44,6 +44,10 @@ const BreadParagraph = styled.p`
     margin: 40px 0 0;
     padding: 0;
     max-width: 390px;
+
+    @media (min-width: 668px) {
+      margin: 40px 0 0 20px;
+    }
   }
 `;
 

@@ -21,7 +21,7 @@ h1, h5, dt, a {
 }
 
 a {
-font-family: 'GT Walsheim Pro';
+font-family: 'GT Walsheim Pro', sans-serif;
 font-weight: normal;
 letter-spacing: 0.5px;
 }
