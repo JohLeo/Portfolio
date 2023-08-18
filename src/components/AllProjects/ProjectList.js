@@ -1,8 +1,9 @@
+/* eslint-disable react/no-array-index-key */
 import React, { useState, useRef } from 'react';
 import { Header, Paragraph } from '../lib/recomp';
 import { ProjectHead, ProjectsCont, TechRow, Btns, ProjectInfo, ProjectName, ProjectImg, Project, ViewButton } from './ProjectStyle';
 import { projects } from './Projects';
-import { Pagination } from './pagination'; // Import the Pagination component
+import { Pagination } from './pagination';
 
 const ProjectsPerPage = 4;
 
@@ -45,8 +46,8 @@ export const ProjectStack = () => {
               </Paragraph>
 
               <TechRow>
-                {project.techs && project.techs.map((tech) => (
-                  <Project text={tech} />
+                {project.techs && project.techs.map((tech, index) => (
+                  <Project key={index} text={tech} />
                 ))}
               </TechRow>
 
