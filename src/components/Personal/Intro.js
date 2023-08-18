@@ -29,7 +29,7 @@ export const TheProfile = () => {
 
         <Paragraph AboutText="AboutText">
         Hi! <br />
-        I&apos;m Johanna, a frontend developer passionate
+        I&apos;m Johanna, a curious doer passionate
         about creating engaging web experiences.
         My approach to web projects is influenced by my
         foundation in communication and design, allowing me to blend <br />
