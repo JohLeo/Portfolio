@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Header, Paragraph } from '../lib/recomp';
 import { ProjectHead, ProjectsCont, TechRow, Btns, ProjectInfo, ProjectName, ProjectImg, Project, ViewButton } from './ProjectStyle';
 import { projects } from './Projects';
@@ -8,6 +8,7 @@ const ProjectsPerPage = 4;
 
 export const ProjectStack = () => {
   const [currentPage, setCurrentPage] = useState(1);
+  const projectsListRef = useRef(null);
 
   const indexOfLastProject = currentPage * ProjectsPerPage;
   const indexOfFirstProject = indexOfLastProject - ProjectsPerPage;
@@ -17,11 +18,13 @@ export const ProjectStack = () => {
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
+
+    projectsListRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
     <>
-      <ProjectHead>
+      <ProjectHead ref={projectsListRef}>
         <Header>Projects</Header>
       </ProjectHead>
 
