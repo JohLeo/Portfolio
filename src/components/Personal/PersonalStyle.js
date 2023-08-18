@@ -119,9 +119,12 @@ export const Mail = styled.a`
   color: var(--fontColor);
   margin-top: 40px;
   text-decoration: none;
-  line-height: 30px;
+  line-height: 35px;
   &:hover {
       color: var(--Hover);
+      text-decoration: underline;
+      text-underline-offset: 3.5px;
+      text-decoration-thickness: 1.5px;
     }
 `
 
@@ -132,6 +135,9 @@ export const Phone = styled.a`
   text-decoration: none;
   &:hover {
       color: var(--Hover);
+      text-decoration: underline;
+      text-underline-offset: 3.5px;
+      text-decoration-thickness: 1.5px;
     }
 `
 
@@ -149,6 +155,7 @@ background-color: var(--footer);
     align-items: center;
     margin: 0;
     padding: 60px 20px 10px 20px;
+    height: 90vh;
   }
 `
 

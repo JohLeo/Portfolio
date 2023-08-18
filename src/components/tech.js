@@ -5,29 +5,26 @@ import { Header } from './lib/recomp';
 export const Container = styled.div`
 display: flex;
 flex-direction: column;
-height: 50vh;
+height: 70vh;
 align-items: center;
 text-align: center;
 background: var(--tech);
-padding: 100px 20px 30px 20px;
+justify-content: center;
 
 @media (min-width: 1024px) {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     gap: 80px;
     text-align: left;
-    padding: 100px 20px 100px 20px;
   }
 `
 
 export const TechText = styled.p`
-  font-size: 15px;
+  font-size: 18px;
   color: var(--fontColormain);
   font-weight: 300;
   line-height: 28px;
-  padding-right: 10px;
-  margin: 50px 0 0 20px;
+  margin: 50px 0;
   max-width: 380px;
 `
 
@@ -50,14 +47,14 @@ export const TagMob = styled.span`
 export const TechStack = () => {
   return (
     <Container>
-      <Header margin="25px 0 0 0" color="var(--greenHead)">
+      <Header margin="15px 0">
         Tech
       </Header>
       <TechText>
         HTML, CSS, Flexbox, <TagJs>JavaScript,</TagJs> ES6,
         JSX, React, <TagReact>React</TagReact> Hooks, Redux,
         Node.js, Mongo DB, Web Accessibly, API:s,
-        <TagMob>mob-programming,</TagMob> pair-programming, Github.
+        <TagMob>mob-programming,</TagMob> pair-programming, Github
       </TechText>
 
     </Container>

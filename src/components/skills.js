@@ -80,7 +80,7 @@ export const Item = styled.dd`
     line-height: 25px;
 
     @media (min-width: 668px) and (max-width: 1023px) {
-        line-height: 30px;
+        line-height: 35px;
     }
 
     @media (min-width: 1024px) {

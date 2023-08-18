@@ -25,7 +25,7 @@ export const ProjectStack = () => {
   return (
     <>
       <ProjectHead ref={projectsListRef}>
-        <Header>Projects</Header>
+        <Header margin="0 0 60px 0">Projects</Header>
       </ProjectHead>
 
       <div>
