@@ -16,8 +16,7 @@ export const IntroContainer = styled.section`
 export const Hej = styled.h1`
   font-size: 30px;
   color: var(--background);
-  font-family: Josefin Sans;
-  font-weight: 300;
+  font-family: 'Josefin sans';
 
   @media (min-width: 668px) and (max-width: 1023px) {
       display: none;

@@ -53,7 +53,7 @@ export const TechStack = () => {
       <TechText>
         HTML, CSS, Flexbox, <TagJs>JavaScript,</TagJs> ES6,
         JSX, React, <TagReact>React</TagReact> Hooks, Redux,
-        Node.js, Mongo DB, Web Accessibly, API:s,
+        Node.js, Mongo DB, Web-accessibility, API:s,
         <TagMob>mob-programming,</TagMob> pair-programming, Github
       </TechText>
 

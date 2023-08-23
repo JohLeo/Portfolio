@@ -47,7 +47,7 @@ export const ProjectStack = () => {
 
               <TechRow>
                 {project.techs && project.techs.map((tech, index) => (
-                  <Project key={index} text={tech} />
+                  <Project key={`${tech}-${index}`} text={tech} />
                 ))}
               </TechRow>
 
