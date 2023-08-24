@@ -116,7 +116,7 @@ export const Skills = () => {
           <Item>Google Cloud</Item>
           <Item>Figma</Item>
           <Item>Adobe inDesign</Item>
-          <Item>Adobe Illustratior</Item>
+          <Item>Adobe Illustrator</Item>
           <Item>Adobe Photoshop</Item>
           <Item>Trello</Item>
           <Item>Slack</Item>
