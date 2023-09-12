@@ -38,7 +38,7 @@ export const TagReact = styled.span`
     color: #FFFFFF;
     padding: 3px 4px;
 `
-export const TagMob = styled.span`
+export const TagNode = styled.span`
     background-color: orange;
     color: #FFFFFF;
     padding: 3px 4px;
@@ -51,10 +51,10 @@ export const TechStack = () => {
         Tech
       </Header>
       <TechText>
-        HTML, CSS, Flexbox, <TagJs>JavaScript,</TagJs> ES6,
-        JSX, React, <TagReact>React</TagReact> Hooks, Redux,
-        Node.js, Mongo DB, Web-accessibility, API:s,
-        <TagMob>mob-programming,</TagMob> pair-programming, Github
+        HTML, CSS, <TagJs>JavaScript ES6,</TagJs> JSX,
+        Responsive design, <TagReact>React,</TagReact> React Hooks, Redux,
+        MongoDB, <TagNode>Node.js,</TagNode> Express.js, Web-accessibility, APIs,
+        mob-programming, pair-programming, Github, Git
       </TechText>
 
     </Container>
