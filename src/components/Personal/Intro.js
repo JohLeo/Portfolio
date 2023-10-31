@@ -29,16 +29,16 @@ export const TheProfile = () => {
 
         <Paragraph AboutText="AboutText">
         Hi! <br />
-        I&apos;m Johanna, a curious doer passionate
-        about creating engaging web experiences.
-        My approach to web projects is influenced by my
-        foundation in communication and design, allowing me to blend <br />
-        user-focused functionality with visual aesthetics.<br />
-        My drive to continually learn and grow fuels my
-        ability to stay current with the latest
-        trends and technologies. I approach challenges
-        with a practical mindset and attention to detail
-        to ensure your needs are met.
+        I&apos;m Johanna, a Frontend Developer with a passion for creating
+        engaging digital experiences.<br />
+        With a background in project management and team leadership,
+        I bring a deep understanding of customer interactions and
+        user-focused design to my projects.<br />
+        I find joy in crafting products that excel in both aesthetics and usability.<br />
+        As a curious problem solver, I embrace challenges and thrive in collaborative
+        environments to bring ideas and concepts to life.<br />
+        If you&apos;re looking for a fresh perspective and a new team member, let&apos;s chat!
+
         </Paragraph>
         <IconsContainer>
           <Icons
