@@ -1,7 +1,16 @@
 import React from 'react';
+// import { MeshAni } from './MeshGrade'
 import { ProfilePic, Paragraph } from '../lib/recomp'
 import { Name, Title, TitleSkill } from '../lib/styled';
-import { IntroContainer, ColorSection, ProfileContainer, Blob, Hej, ProfileImgText, ProfileText, IconsContainer, Icons } from './PersonalStyle';
+import { IntroContainer,
+  ColorSection,
+  ProfileContainer,
+  Blob,
+  Hej,
+  ProfileImgText,
+  ProfileText,
+  IconsContainer,
+  Icons } from './PersonalStyle';
 
 export const TheProfile = () => {
   return (

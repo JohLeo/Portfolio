@@ -41,7 +41,7 @@ export const Blob = styled.div`
   background-position: center center;
   height: 250px;
   width: 250px;
-  animation: ${LeColor} 40s ease-in-out infinite, animate 30s ease-in-out infinite;
+  animation: ${LeColor} 40s ease-in-out infinite, animate 15s ease-in-out infinite;
   transition: all 2s ease-in-out;
   
   @keyframes animate {
@@ -63,8 +63,17 @@ export const Blob = styled.div`
 
 export const ColorSection = styled.div`
     display: none;
-    animation: ${LeColor} 30s linear infinite;
     justify-content: center;
+    background-color:hsla(0,77%,91%,1);
+    background-image:
+    radial-gradient(at 90% 0%, hsla(67,63%,89%,0.64) 0px, transparent 50%),
+    radial-gradient(at 39% 21%, hsla(27,83%,80%,0.8) 0px, transparent 50%),
+    radial-gradient(at 44% 56%, hsla(355,100%,93%,1) 0px, transparent 50%),
+    radial-gradient(at 54% 2%, hsla(157,39%,60%,0.9) 0px, transparent 50%),
+    radial-gradient(at 75% 90%, hsla(27,82%,71%,0.85) 0px, transparent 50%),
+    radial-gradient(at 15% 80%, hsla(340,73%,80%,0.43) 0px, transparent 50%),
+    radial-gradient(at 42% 95%, hsla(31,51%,93%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(333,30%,69%,0.15) 0px, transparent 50%);
 
     @media (min-width: 668px) and (max-width: 1023px) {
         display: flex;
