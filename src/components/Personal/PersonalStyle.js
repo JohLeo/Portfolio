@@ -1,3 +1,4 @@
+import React from 'react';
 import styled, { keyframes } from 'styled-components/macro';
 
 export const IntroContainer = styled.section`
@@ -108,7 +109,7 @@ justify-content: left;
 
 @media (min-width: 667px) {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
   }
 `
 
@@ -204,3 +205,42 @@ export const Icons = styled.a`
       color: var(--Hover);
     }
 `
+
+// ProfilePicture
+const BgShape = styled.div`
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 140px;
+  background-color: var(--skills);
+  border-radius: 50% 50% 0 0;
+  padding-bottom: 24px;
+`;
+
+const ImageContainer = styled.div`
+  position: relative;
+  width: 140px;
+  height: 150px;
+  overflow: hidden;
+`;
+
+const ProfileImg = styled.img`
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.5, 2.5, 0.5, 0.1);
+
+  &:hover {
+    transform: scale(1.10);
+  }
+`;
+
+export const ProfileImageHover = ({ src, alt }) => {
+  return (
+    <BgShape>
+      <ImageContainer>
+        <ProfileImg src={src} alt={alt} />
+      </ImageContainer>
+    </BgShape>
+  );
+};

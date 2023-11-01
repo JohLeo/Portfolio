@@ -1,6 +1,6 @@
 import React from 'react';
-// import { MeshAni } from './MeshGrade'
-import { ProfilePic, Paragraph } from '../lib/recomp'
+import JLPic from 'img/JL_sv.svg';
+import { Paragraph } from '../lib/recomp'
 import { Name, Title, TitleSkill } from '../lib/styled';
 import { IntroContainer,
   ColorSection,
@@ -10,7 +10,8 @@ import { IntroContainer,
   ProfileImgText,
   ProfileText,
   IconsContainer,
-  Icons } from './PersonalStyle';
+  Icons,
+  ProfileImageHover } from './PersonalStyle';
 
 export const TheProfile = () => {
   return (
@@ -23,11 +24,10 @@ export const TheProfile = () => {
       </ColorSection>
       <ProfileContainer>
         <ProfileImgText>
-          <ProfilePic
-            src="https://i.postimg.cc/cCSqbLh4/profiletemp.png"
+          <ProfileImageHover
+            src={JLPic}
             alt="Picture of Johanna"
-            ariaLabel="Johanna's profile picture"
-            centered />
+            ariaLabel="Johanna's profile picture" />
 
           <ProfileText>
             <Name>Johanna Leonsson</Name>

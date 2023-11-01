@@ -15,10 +15,11 @@ export const Header = ({ children, color, margin }) => {
 
 // Profile picture Intro and foot
 const ProfileImage = styled.img`
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   margin: 0 auto;
+  background-color: var(--skills);
 
   margin-left: ${(props) => (props.centered ? 'auto' : '0')};
   margin-right: ${(props) => (props.centered ? 'auto' : '0')};
@@ -41,12 +42,11 @@ const BreadParagraph = styled.p`
   max-width: 310px;
 
   &.AboutText {
-    margin: 40px 0 0;
-    padding: 0;
-    max-width: 390px;
+    margin: 40px 0 0 0;
+    max-width: 400px;
 
     @media (min-width: 668px) {
-      margin: 40px 0 0 20px;
+      margin: 40px 0 0 0px;
     }
   }
 `;

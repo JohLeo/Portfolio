@@ -1,5 +1,6 @@
 import React from 'react';
 import HiIcon from 'img/connect.svg';
+import JLProfile from 'img/JL_clr.svg'
 import { ProfilePic } from '../lib/recomp'
 import { Name, Title, TitleSkill } from '../lib/styled'
 import { FootContainer, ProfileImgText, ProfileText, Mail, Phone, ConnectIcon, IconsContainer, Icons } from './PersonalStyle';
@@ -11,7 +12,7 @@ export const Footer = () => {
 
       <ProfileImgText>
         <ProfilePic
-          src="https://i.postimg.cc/cCSqbLh4/profiletemp.png"
+          src={JLProfile}
           alt="Picture of Johanna"
           ariaLabel="Johanna's profile picture" />
 
