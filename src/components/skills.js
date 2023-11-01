@@ -106,13 +106,13 @@ export const Skills = () => {
           <Item>Redux</Item>
           <Item>Styled components</Item>
           <Item>Node.js</Item>
-          <Item>GitHub</Item>
-          <Item>Mongo</Item>
+          <Item>MongoDB</Item>
           <Item>Typescript</Item>
         </SkillList>
 
         <SkillList>
           <SkillTool>Toolbox</SkillTool>
+          <Item>GitHub</Item>
           <Item>Postman</Item>
           <Item>Google Cloud</Item>
           <Item>Figma</Item>
