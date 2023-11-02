@@ -94,7 +94,7 @@ display: flex;
 flex-direction: column;
 justify-content: left;
 background: var(--background);
-margin: 60px 20px 10px 20px;
+margin: 40px 20px 10px 20px;
 
 @media (min-width: 667px) {
     align-items: center;
