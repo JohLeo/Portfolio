@@ -48,28 +48,32 @@ export const SkillCode = styled.dt`
     display: inline-block;
     margin: 0 0 10px 0;
     color: #fff;
-    background: var(--codeSkill);
+    font-weight: 400;
+    background: var(--codeTag);
     padding: 4px;
 `
 export const SkillTool = styled.dt`
     display: inline-block;
     margin: 0 0 10px 0;
     color: #fff;
-    background: var(--codeTool);
+    font-weight: 400;
+    background: var(--codeTag);
     padding: 4px;
 `
 export const SkillMore = styled.dt`
     display: inline-block;
     margin: 0 0 10px 0;
     color: #fff;
-    background: var(--codeMore);
+    font-weight: 400;
+    background: var(--codeTag);
     padding: 4px;
 `
 export const SkillItem = styled.dt`
     display: inline-block;
     margin: 0 0 10px 0;
     color: #fff;
-    background: var(--codeUp);
+    font-weight: 400;
+    background: var(--codeTag);
     padding: 4px;
 `
 

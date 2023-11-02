@@ -44,8 +44,9 @@ export const TheProfile = () => {
         I bring a deep understanding of customer interactions and
         user-focused design to my projects.<br />
         I find joy in crafting products that excel in both aesthetics and usability.<br />
-        As a curious problem solver, I embrace challenges and thrive in collaborative
-        environments to bring ideas and concepts to life. If you&apos;re looking for a
+        As a proactive and analytical problem solver, I embrace challenges and thrive
+        in collaborative environments to bring ideas and concepts to life.
+        If you&apos;re looking for a
         fresh perspective and a new team member, let&apos;s chat!
 
         </Paragraph>
