@@ -3,14 +3,16 @@ import styled, { keyframes } from 'styled-components/macro';
 
 export const IntroContainer = styled.section`
     display: flex;
+    
 
     @media (min-width: 668px) and (max-width: 1023px) {
-        flex-direction: column;
+      height: 100vh;
+      flex-direction: column;
     }
 
     @media (min-width: 1024px) {
-        height: 100vh;
-        flex-direction: row-reverse;
+      height: 100vh;
+      flex-direction: row-reverse;
     }
 `
 
