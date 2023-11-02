@@ -14,21 +14,6 @@ export const IntroContainer = styled.section`
     }
 `
 
-export const Hej = styled.h1`
-  font-size: 30px;
-  color: var(--background);
-  font-family: 'Josefin sans';
-
-  @media (min-width: 668px) and (max-width: 1023px) {
-      display: none;
-    }
-
-   @media (min-width: 1024px) {
-    font-size: 90px;
-    margin: 115px 0 0 48px;
-   }
-`
-
 const LeColor = keyframes`
   0% , 100% { background-color: var(--tech); }
   30% { background-color: var(--codeMore); }
@@ -60,6 +45,21 @@ export const Blob = styled.div`
 @media (min-width: 668px) and (max-width: 1023px) {
         display: none;
     }
+`
+
+export const Hej = styled.h1`
+  font-size: 30px;
+  color: var(--background);
+  font-family: 'Josefin sans';
+
+  @media (min-width: 668px) and (max-width: 1023px) {
+      display: none;
+    }
+
+   @media (min-width: 1024px) {
+    font-size: 90px;
+    margin: 115px 0 0 48px;
+   }
 `
 
 export const ColorSection = styled.div`
@@ -94,13 +94,16 @@ display: flex;
 flex-direction: column;
 justify-content: left;
 background: var(--background);
-margin: 100px 20px 10px 20px;
+margin: 60px 20px 10px 20px;
 
 @media (min-width: 667px) {
     align-items: center;
     margin: auto;
     padding: 60px 20px 10px 20px;
   }
+  @media (min-width: 1024px) {
+    padding: 100px 20px 10px 20px;
+  }  
 `
 export const ProfileImgText = styled.div`
 display: flex;

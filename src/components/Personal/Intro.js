@@ -45,8 +45,8 @@ export const TheProfile = () => {
         user-focused design to my projects.<br />
         I find joy in crafting products that excel in both aesthetics and usability.<br />
         As a curious problem solver, I embrace challenges and thrive in collaborative
-        environments to bring ideas and concepts to life.<br />
-        If you&apos;re looking for a fresh perspective and a new team member, let&apos;s chat!
+        environments to bring ideas and concepts to life. If you&apos;re looking for a
+        fresh perspective and a new team member, let&apos;s chat!
 
         </Paragraph>
         <IconsContainer>

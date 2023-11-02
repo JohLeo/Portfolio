@@ -42,7 +42,7 @@ const BreadParagraph = styled.p`
   max-width: 310px;
 
   &.AboutText {
-    margin: 40px 0 0 0;
+    margin: 20px 0 0 0;
     max-width: 400px;
 
     @media (min-width: 668px) {

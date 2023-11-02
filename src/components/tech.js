@@ -75,7 +75,7 @@ export const TechStack = () => {
         className="tech-text"
         initial={{ opacity: 0 }}
         animate={{ opacity: isVisible ? 1 : 0 }}
-        transition={{ duration: 3, ease: 'easeInOut' }}>
+        transition={{ duration: 2, ease: 'easeInOut' }}>
         HTML, CSS, <TagJs>JavaScript ES6,</TagJs> JSX, Responsive design,{' '}
         <TagReact>React,</TagReact> React Hooks, Redux, MongoDB,{' '}
         <TagNode>Node.js,</TagNode> Express.js, Web-accessibility, APIs,
