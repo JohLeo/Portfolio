@@ -26,7 +26,7 @@ const TechText = styled(motion.p)`
   font-weight: 300;
   line-height: 28px;
   margin: 50px 0;
-  max-width: 380px;
+  max-width: 420px;
   opacity: 0;
 `;
 
@@ -79,8 +79,8 @@ export const TechStack = () => {
         HTML, CSS, <TagJs>JavaScript ES6,</TagJs> JSX, {' '}
         <TagReact>React,</TagReact> React Hooks, Redux, Redux Toolkit, MongoDB,
         Responsive design,{' '}<TagNode>Node.js,</TagNode> Express.js,
-        Web-accessibility, Restful APIs, TypeScript,
-        Mob- & pair-programming, Git
+        Web-accessibility, Git, Restful APIs, TypeScript,
+        Mob- & pair-programming
       </TechText>
     </Container>
   );
