@@ -30,20 +30,10 @@ const TechText = styled(motion.p)`
   opacity: 0;
 `;
 
-const TagJs = styled.span`
-  background-color: pink;
-  color: #FFFFFF;
-  padding: 3px 4px;
-`;
-const TagReact = styled.span`
-  background-color: green;
-  color: #FFFFFF;
-  padding: 3px 4px;
-`;
-const TagNode = styled.span`
-  background-color: orange;
-  color: #FFFFFF;
-  padding: 3px 4px;
+const Tag = styled.span`
+background-color: ${(block) => block.background};
+color: #ffffff;
+padding: 3px 4px;
 `;
 
 export const TechStack = () => {
@@ -76,10 +66,10 @@ export const TechStack = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: isVisible ? 1 : 0 }}
         transition={{ duration: 2, ease: 'easeInOut' }}>
-        HTML, CSS, <TagJs>JavaScript ES6,</TagJs> JSX, {' '}
-        <TagReact>React,</TagReact> React Hooks, Redux, Redux Toolkit, MongoDB,
-        Responsive design,{' '}<TagNode>Node.js,</TagNode> Express.js,
-        Web-accessibility, Git, Restful APIs, TypeScript,
+        HTML, CSS, <Tag background="pink">JavaScript ES6,</Tag> JSX, {' '}
+        <Tag background="green">React,</Tag> React Hooks, Redux, Redux Toolkit, MongoDB,
+        Responsive design,{' '} <Tag background="orange">Node.js,</Tag> Express.js,
+        Web-accessibility, Git, Restful APIs, <Tag background="#141414">TypeScript,</Tag> {' '}
         Mob- & pair-programming
       </TechText>
     </Container>

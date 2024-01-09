@@ -140,8 +140,9 @@ export const Skills = () => {
 
         <SkillList>
           <SkillItem>Upcoming</SkillItem>
-          <Item>React Native</Item>
           <Item>Next.js</Item>
+          <Item>Tailwind</Item>
+          <Item>React Native</Item>
         </SkillList>
       </ContainerSkills>
     </>
