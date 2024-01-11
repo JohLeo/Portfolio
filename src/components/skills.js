@@ -143,6 +143,7 @@ export const Skills = () => {
           <Item>Next.js</Item>
           <Item>Tailwind</Item>
           <Item>React Native</Item>
+          <Item>Jest</Item>
         </SkillList>
       </ContainerSkills>
     </>

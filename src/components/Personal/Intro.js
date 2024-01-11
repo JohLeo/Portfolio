@@ -46,8 +46,7 @@ export const TheProfile = () => {
         that seamlessly blend aesthetics with usability.
         As a devoted problem solver, I eagerly embrace challenges and
         firmly believe in the power of a collaborative environment to
-        breathe life into great ideas. If you&apos;re seeking a fresh
-        perspective and a new team member, let&apos;s connect!
+        breathe life into great ideas.
         </Paragraph>
         <IconsContainer>
           <Icons
