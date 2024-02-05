@@ -67,10 +67,9 @@ export const TechStack = () => {
         animate={{ opacity: isVisible ? 1 : 0 }}
         transition={{ duration: 2, ease: 'easeInOut' }}>
         HTML, CSS, <Tag background="pink">JavaScript ES6,</Tag> JSX, {' '}
-        <Tag background="green">React,</Tag> React Hooks, Redux, Redux Toolkit, MongoDB,
-        Responsive design,{' '} <Tag background="orange">Node.js,</Tag> Express.js,
-        Web-accessibility, Git, Restful APIs, <Tag background="#141414">TypeScript,</Tag> {' '}
-        Mob- & pair-programming
+        <Tag background="green">React,</Tag> Redux, MongoDB, Tailwind, <Tag background="orange">Next.js,</Tag>{' '}
+        Responsive design, Express.js,<Tag background="#141414">TypeScript,</Tag> {' '}  Node.js,
+        Web-accessibility, Restful APIs, Mob- & pair-programming, Git
       </TechText>
     </Container>
   );

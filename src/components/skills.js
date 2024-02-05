@@ -108,24 +108,25 @@ export const Skills = () => {
           <Item>JavaScript ES6</Item>
           <Item>React</Item>
           <Item>Redux</Item>
+          <Item>Typescript</Item>
+          <Item>Next.js</Item>
+          <Item>Tailwind</Item>
           <Item>Styled components</Item>
           <Item>Node.js</Item>
           <Item>MongoDB</Item>
-          <Item>Typescript</Item>
         </SkillList>
 
         <SkillList>
           <SkillTool>Toolbox</SkillTool>
           <Item>GitHub</Item>
+          <Item>Git</Item>
           <Item>Postman</Item>
-          <Item>Google Cloud</Item>
-          <Item>Figma</Item>
-          <Item>Stack Overflow</Item>
-          <Item>Postman</Item>
+          <Item>Google Cloud Platform</Item>
           <Item>Compass</Item>
           <Item>ChatGPT</Item>
+          <Item>Contentful</Item>
+          <Item>Figma</Item>
           <Item>Adobe CS</Item>
-          <Item>Google Cloud Platform</Item>
         </SkillList>
 
         <SkillList>
@@ -135,13 +136,11 @@ export const Skills = () => {
           <Item>Pair-programming</Item>
           <Item>Concept Development</Item>
           <Item>Database Management</Item>
-          <Item>Git</Item>
+          <Item>Project Management</Item>
         </SkillList>
 
         <SkillList>
           <SkillItem>Upcoming</SkillItem>
-          <Item>Next.js</Item>
-          <Item>Tailwind</Item>
           <Item>React Native</Item>
           <Item>Jest</Item>
         </SkillList>

@@ -205,9 +205,11 @@ export const Icons = styled.a`
   color: var(--icons);
   padding: 0 9px;
   text-decoration: none;
+  transition: transform 0.4s ease-in-out;
 
     &:hover {
       color: var(--Hover);
+      transform: scale(1.3);
     }
 `
 
