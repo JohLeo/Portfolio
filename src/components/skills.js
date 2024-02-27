@@ -141,7 +141,7 @@ export const Skills = () => {
 
         <SkillList>
           <SkillItem>Upcoming</SkillItem>
-          <Item>React Native</Item>
+          <Item>C#</Item>
           <Item>Jest</Item>
         </SkillList>
       </ContainerSkills>
