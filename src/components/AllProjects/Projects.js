@@ -1,5 +1,14 @@
 export const projects = [
   {
+    id: '29ac6918-3dda-11ee-be56-0242ac120042',
+    imgSrc: 'https://i.postimg.cc/tTKw5bWf/temp-Imagexzn-Cnh.avif',
+    title: 'Be my valentine',
+    description: 'The idea of this project was to have fun, be creative and practice my React and TypeScript skills. I designed it like a treasure hunt, where the reciever searches for breadcrumbs to progress. Initially, I made a game plan in Figma but quickly realised it might hinder my goal(to ask someone out) by being too challenging. I therefore simplified the steps, adding quirky features to each page instead, making sure each page challenged me in some way code-wise.',
+    techs: ['Typescript', 'HTML5', 'CSS3', 'JavaScript', 'React', 'Styled Components', 'Figma'],
+    githubLink: 'https://github.com/JohLeo/cake-crumbs',
+    netlifyLink: 'https://bemydate.netlify.app'
+  },
+  {
     id: '29ac6918-3dda-11ee-be56-0242ac120002',
     imgSrc: 'https://i.postimg.cc/gJ8xwHqv/Homeigo-final.png',
     title: 'Homeigo realtor website',
