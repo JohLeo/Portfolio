@@ -64,12 +64,11 @@ export const TechStack = () => {
       <TechText
         className="tech-text"
         initial={{ opacity: 0 }}
-        animate={{ opacity: isVisible ? 1 : 0 }}
+        animate={{ opacity: isVisible ? 4 : 0 }}
         transition={{ duration: 2, ease: 'easeInOut' }}>
-        HTML, CSS, <Tag background="pink">JavaScript ES6,</Tag> JSX, {' '}
-        <Tag background="green">React,</Tag> Redux, MongoDB, Tailwind, <Tag background="orange">Next.js,</Tag>{' '}
-        Responsive design, Express.js,<Tag background="#141414">TypeScript,</Tag> {' '}  Node.js,
-        Web-accessibility, Restful APIs, Mob- & pair-programming, Git
+        HTML, CSS, <Tag background="pink">JavaScript ES6,</Tag> JSX,{' '}<Tag background="green">React,</Tag> <br />
+        Redux,{' '}<Tag background="#F5C703">C#,</Tag> .NET, Tailwind, <Tag background="orange">Next.js,</Tag>{' '} Express.js,<br />
+        Git,{' '}<Tag background="#141414">TypeScript,</Tag> Node.js, MongoDB, Restful APIs
       </TechText>
     </Container>
   );

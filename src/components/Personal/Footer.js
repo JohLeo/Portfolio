@@ -18,7 +18,7 @@ export const Footer = () => {
 
         <ProfileText>
           <Name>Johanna Leonsson</Name>
-          <Title>Frontend developer</Title>
+          <Title>Fullstack developer</Title>
           <TitleSkill>+ digital designer</TitleSkill>
         </ProfileText>
       </ProfileImgText>

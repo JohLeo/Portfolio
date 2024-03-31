@@ -31,14 +31,14 @@ export const TheProfile = () => {
 
           <ProfileText>
             <Name>Johanna Leonsson</Name>
-            <Title>Frontend developer</Title>
+            <Title>Fullstack developer</Title>
             <TitleSkill>+ digital designer</TitleSkill>
           </ProfileText>
         </ProfileImgText>
 
         <Paragraph AboutText="AboutText">
         Hi! <br />
-        I&apos;m Johanna, a Frontend Developer with a genuine passion
+        I&apos;m Johanna, a fullstack developer with a genuine passion
         for crafting captivating digital experiences. With a background
         in project management and team leadership, I bring a profound
         understanding of customer interactions and user-focused design

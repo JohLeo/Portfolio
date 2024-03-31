@@ -118,10 +118,11 @@ export const Skills = () => {
 
         <SkillList>
           <SkillTool>Toolbox</SkillTool>
-          <Item>GitHub</Item>
           <Item>Git</Item>
-          <Item>Postman</Item>
+          <Item>Azure Devops</Item>
           <Item>Google Cloud Platform</Item>
+          <Item>Postman</Item>
+          <Item>GitHub</Item>
           <Item>Compass</Item>
           <Item>ChatGPT</Item>
           <Item>Contentful</Item>
@@ -140,9 +141,9 @@ export const Skills = () => {
         </SkillList>
 
         <SkillList>
-          <SkillItem>Upcoming</SkillItem>
+          <SkillItem>Ongoing</SkillItem>
           <Item>C#</Item>
-          <Item>Jest</Item>
+          <Item>.NET</Item>
         </SkillList>
       </ContainerSkills>
     </>
